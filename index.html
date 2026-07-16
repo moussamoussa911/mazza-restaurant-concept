@@ -8,8 +8,8 @@
     <title>Mazza Enschede — Libanese gastvrijheid</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Gabriela&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css?v=3" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Gabriela&family=Noto+Kufi+Arabic:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css?v=4" />
   </head>
   <body>
     <svg class="svg-sprite" aria-hidden="true">
@@ -38,7 +38,7 @@
         <div class="language-switcher" role="group" aria-label="Language">
           <button type="button" data-lang="nl" class="active">NL</button>
           <button type="button" data-lang="de">DE</button>
-          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="ar">AR</button>
         </div>
         <a class="header-cta" href="#booking"><span data-i18n="nav.book">Reserveer</span><svg><use href="#i-arrow" /></svg></a>
       </div>
@@ -100,6 +100,18 @@
         </div>
       </section>
 
+      <section class="video-story reveal" aria-label="Mazza in beweging">
+        <video autoplay muted loop playsinline poster="assets/interior-wide.jpg"><source src="assets/hero.webm" type="video/webm" /></video>
+        <div class="video-story-shade"></div>
+        <div class="video-story-copy">
+          <span data-i18n="video.index">Mazza in beweging</span>
+          <h2 data-i18n-html="video.title">Voel de avond<br /><em>voor je binnenstapt.</em></h2>
+          <p data-i18n="video.copy">Warm licht, open vuur en een tafel die steeds voller wordt.</p>
+          <a href="#booking"><span data-i18n="video.link">Reserveer jouw avond</span><svg><use href="#i-arrow" /></svg></a>
+        </div>
+        <div class="video-story-badge"><svg><use href="#i-spark" /></svg><span data-i18n="video.badge">Echt Mazza<br />Enschede</span></div>
+      </section>
+
       <section class="menu-section section" id="menu">
         <div class="menu-intro reveal">
           <div><span class="section-index" data-i18n="menu.index">02 · De menukaart</span><h2 data-i18n-html="menu.title">Kies klein.<br /><em>Proef groots.</em></h2></div>
@@ -108,7 +120,7 @@
 
         <div class="dish-showcase">
           <article class="dish-card dish-card-featured reveal"><img src="assets/food-grill.jpg" alt="Shish Tawook" loading="lazy" /><div><span data-i18n="menu.grillLabel">Van de grill</span><h3>Shish Tawook</h3><strong>€ 23,95</strong></div></article>
-          <article class="dish-card reveal"><img src="assets/food-platter.jpg" alt="Mazza mix" loading="lazy" /><div><span data-i18n="menu.shareLabel">Om te delen</span><h3>Mazza Mix</h3><strong data-i18n="menu.sharePrice">vanaf € 52,95 p.p.</strong></div></article>
+          <article class="dish-card reveal"><img src="assets/falafel-plate.webp" alt="Libanese falafel met tahin en verse groenten" loading="lazy" /><div><span data-i18n="menu.warmLabel">Warme mazza</span><h3>Falafel</h3><strong>€ 10,95</strong></div></article>
           <article class="dish-card reveal"><img src="assets/dessert.jpg" alt="Knafeh" loading="lazy" /><div><span data-i18n="menu.sweetLabel">Zoete finale</span><h3>Knafeh</h3><strong>€ 12,95</strong></div></article>
         </div>
 
@@ -246,6 +258,6 @@
     </footer>
 
     <a class="mobile-book" href="#booking"><span data-i18n="hero.book">Kies je tafel</span><svg><use href="#i-arrow" /></svg></a>
-    <script src="app.js?v=3"></script>
+    <script src="app.js?v=4"></script>
   </body>
 </html>
