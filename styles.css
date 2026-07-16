@@ -37,8 +37,8 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   inset: 0;
   content: "";
   pointer-events: none;
-  background: url("/assets/mazza-logo.svg") center / contain no-repeat;
-  clip-path: inset(100% 72.75% 0 0);
+  background: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
+  clip-path: inset(100% 0 0 0);
   animation: mazzaMFill 10s cubic-bezier(.45, 0, .2, 1) infinite;
   will-change: clip-path, opacity;
 }
@@ -515,9 +515,9 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 @keyframes menuIn { from { opacity: 0; transform: translateY(8px); } }
 @keyframes screenIn { from { opacity: 0; transform: translateY(8px); } }
 @keyframes mazzaMFill {
-  0%, 12% { opacity: 1; clip-path: inset(100% 72.75% 0 0); }
-  67%, 82% { opacity: 1; clip-path: inset(0 72.75% 0 0); }
-  92%, 100% { opacity: 0; clip-path: inset(0 72.75% 0 0); }
+  0%, 12% { opacity: 1; clip-path: inset(100% 0 0 0); }
+  67%, 82% { opacity: 1; clip-path: inset(0 0 0 0); }
+  92%, 100% { opacity: 0; clip-path: inset(0 0 0 0); }
 }
 
 @media (max-width: 1180px) {
