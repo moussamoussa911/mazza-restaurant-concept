@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Gabriela&family=Noto+Kufi+Arabic:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css?v=6" />
+    <link rel="stylesheet" href="/styles.css?v=7" />
   </head>
   <body data-page="home">
     <svg class="svg-sprite" aria-hidden="true">
@@ -28,7 +28,7 @@
     <div class="page-grain" aria-hidden="true"></div>
 
     <header class="site-header" data-header>
-      <a class="brand" href="/" aria-label="Mazza home"><img src="/assets/mazza-logo.svg" alt="Mazza" /></a>
+      <a class="brand" href="/" aria-label="Mazza home" translate="no"><img src="/assets/mazza-logo.svg" alt="Mazza" /></a>
       <nav class="desktop-nav" aria-label="Main navigation">
         <a href="/over-ons" data-i18n="nav.story">Ons verhaal</a>
         <a href="/menu" data-i18n="nav.menu">Menukaart</a>
@@ -37,7 +37,7 @@
       </nav>
       <div class="header-actions">
         <span class="flag-pair" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span>
-        <div class="language-switcher" role="group" aria-label="Language"><button type="button" data-lang="nl" class="active">NL</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="ar">AR</button></div>
+        <div class="language-switcher" role="group" aria-label="Language" translate="no"><button type="button" data-lang="nl" class="active">NL</button><button type="button" data-lang="de">DE</button><button type="button" data-lang="ar">AR</button></div>
         <a class="instagram-mini" href="https://www.instagram.com/restaurantmazza/" target="_blank" rel="noopener" aria-label="Mazza op Instagram"><svg><use href="#i-instagram" /></svg></a>
         <a class="header-cta" href="/reserveren"><span data-i18n="nav.book">Reserveer</span><svg><use href="#i-arrow" /></svg></a>
       </div>
@@ -59,7 +59,7 @@
         <div class="hero-media" aria-hidden="true"><video autoplay muted loop playsinline poster="/assets/interior-wide.jpg"><source src="/assets/hero.webm" type="video/webm" /></video></div>
         <div class="hero-shade"></div>
         <div class="hero-content">
-          <div class="hero-eyebrow"><span class="status-dot"></span><span data-i18n="hero.eyebrow">Arabisch-Libanese keuken · Enschede</span></div>
+          <div class="hero-eyebrow origin-badge"><span class="origin-flags" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span><span data-i18n="hero.eyebrow">Libanese keuken · Enschede</span></div>
           <h1 data-i18n-html="hero.title">Pure smaak.<br /><em>Warme gastvrijheid.</em></h1>
           <p data-i18n="hero.copy">Een tafel vol kleine gerechten, vuur van de grill en de warmte van samen eten.</p>
           <div class="hero-actions">
@@ -76,7 +76,7 @@
         <div class="hero-footer">
           <div><span data-i18n="hero.locationLabel">Midden in Enschede</span><strong>Walstraat 1</strong></div>
           <div><span data-i18n="hero.hoursLabel">Zeven dagen per week</span><strong>16:00 — 22:00</strong></div>
-          <div class="hero-arabic"><span>مزّة</span><strong data-i18n="hero.arabicLabel">Proeven · delen · blijven</strong></div>
+          <div class="hero-arabic"><span lang="ar" dir="rtl" translate="no">مَزَّة</span><strong data-i18n="hero.arabicLabel">Proeven · delen · blijven</strong></div>
         </div>
       </section>
 
@@ -84,7 +84,7 @@
         <div class="section-heading reveal"><span class="section-index" data-i18n="story.index">01 · Het verhaal</span><h2 data-i18n-html="story.title">Een avond die begint<br />met <em>één klein bordje.</em></h2></div>
         <div class="story-layout">
           <figure class="story-main-photo reveal"><img src="/assets/dining.jpg" alt="Samen tafelen bij Mazza" loading="lazy" /><figcaption><span>Walstraat 1</span><strong data-i18n="story.photoCaption">Een warme wereld in hartje Enschede.</strong></figcaption></figure>
-          <div class="story-copy reveal"><span class="arabic-mark">مزّة</span><p class="story-lead" data-i18n="story.lead">Mazza betekent blijven proeven, delen en praten. Het Arabische antwoord op tapas, met de gastvrijheid van thuis.</p><p data-i18n="story.body">Koude en warme mazza, geurende kruiden en gerechten van de grill komen midden op tafel. Niemand bestelt alleen voor zichzelf.</p><a href="/over-ons" class="line-link"><span data-i18n="nav.story">Ons verhaal</span><svg><use href="#i-arrow" /></svg></a></div>
+          <div class="story-copy reveal"><span class="arabic-mark" lang="ar" dir="rtl" translate="no">مَزَّة</span><p class="story-lead" data-i18n="story.lead">Mazza betekent blijven proeven, delen en praten. Het Arabische antwoord op tapas, met de gastvrijheid van thuis.</p><p data-i18n="story.body">Koude en warme mazza, geurende kruiden en gerechten van de grill komen midden op tafel. Niemand bestelt alleen voor zichzelf.</p><a href="/over-ons" class="line-link"><span data-i18n="nav.story">Ons verhaal</span><svg><use href="#i-arrow" /></svg></a></div>
           <figure class="story-detail-photo reveal"><img src="/assets/food-detail.jpg" alt="Libanees gerecht" loading="lazy" /></figure>
           <blockquote class="story-quote reveal"><svg><use href="#i-spark" /></svg><p data-i18n="story.quote">“De tafel is pas compleet als iedereen mee-eet.”</p><span data-i18n="story.quoteBy">— Onze favoriete huisregel</span></blockquote>
         </div>
@@ -123,13 +123,13 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="footer-top"><img src="/assets/mazza-logo.svg" alt="Mazza" /><p data-i18n-html="footer.tagline">Libanese smaken.<br />Eindeloze gastvrijheid.</p><span class="footer-flags" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span></div>
-      <div class="footer-word">MAZZA</div>
+    <footer class="site-footer" id="footer">
+      <div class="footer-top"><img src="/assets/mazza-logo.svg" alt="Mazza" /><p data-i18n-html="footer.tagline">Libanese smaken.<br />Eindeloze gastvrijheid.</p><div class="footer-origin"><span class="footer-arabic" lang="ar" dir="rtl" translate="no">مَزَّة</span><span class="footer-flags" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span></div></div>
+      <div class="footer-word" aria-label="Mazza" translate="no"><span>M</span><span>A</span><span>Z</span><span>Z</span><span>A</span></div>
       <div class="footer-row"><div><span data-i18n="footer.follow">Volg ons</span><a href="https://www.instagram.com/restaurantmazza/" target="_blank" rel="noopener">Instagram ↗</a></div><div><span data-i18n="footer.call">Direct reserveren</span><a href="tel:0537504170">053 · 750 41 70</a></div><div><span>© <span data-year></span> Mazza Enschede</span><small data-i18n="footer.concept">Interactieve conceptwebsite</small></div></div>
     </footer>
 
     <a class="mobile-book" href="/reserveren"><span data-i18n="hero.book">Kies je tafel</span><svg><use href="#i-arrow" /></svg></a>
-    <script src="/app.js?v=6"></script>
+    <script src="/app.js?v=7"></script>
   </body>
 </html>
