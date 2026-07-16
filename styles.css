@@ -134,7 +134,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .story-motion-image { position: absolute; z-index: 2; margin: 0; overflow: hidden; border: 1px solid rgba(247,211,166,.28); box-shadow: 0 30px 70px rgba(0,0,0,.42); }
 .story-motion-image img { transition: filter .4s ease; }
 .story-motion-image-main { top: 7%; left: 6%; width: 80%; height: 57%; animation: storyImageFloat 8s ease-in-out infinite; }
-.story-motion-image-main img { object-position: center 68%; }
+.story-motion-image-main img { object-position: center 48%; }
 .story-motion-image-accent { right: 5%; bottom: 9%; width: 37%; height: 46%; animation: storyAccentFloat 9s ease-in-out infinite; }
 .story-motion-image-accent img { object-position: center 70%; }
 .story-motion-orbit { position: absolute; z-index: 1; right: -5%; bottom: 0; width: 52%; aspect-ratio: 1; border: 1px dashed rgba(247,211,166,.35); border-radius: 50%; animation: storyOrbit 22s linear infinite; }
