@@ -134,7 +134,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .story-motion-image { position: absolute; z-index: 2; margin: 0; overflow: hidden; border: 1px solid rgba(247,211,166,.28); box-shadow: 0 30px 70px rgba(0,0,0,.42); }
 .story-motion-image img { transition: filter .4s ease; }
 .story-motion-image-main { top: 7%; left: 6%; width: 80%; height: 57%; animation: storyImageFloat 8s ease-in-out infinite; }
-.story-motion-image-main img { object-position: center; }
+.story-motion-image-main img { object-position: center 68%; }
 .story-motion-image-accent { right: 5%; bottom: 9%; width: 37%; height: 46%; animation: storyAccentFloat 9s ease-in-out infinite; }
 .story-motion-image-accent img { object-position: center 70%; }
 .story-motion-orbit { position: absolute; z-index: 1; right: -5%; bottom: 0; width: 52%; aspect-ratio: 1; border: 1px dashed rgba(247,211,166,.35); border-radius: 50%; animation: storyOrbit 22s linear infinite; }
@@ -768,7 +768,9 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .origin-badge { min-height: 35px; padding: 4px 11px 4px 5px; flex-wrap: nowrap; gap: 8px; font-size: 8px; letter-spacing: .11em; }
   .origin-flags { height: 25px; padding: 0 6px; }
   .origin-flags img { width: 20px; height: 13px; }
-  html[lang="de"] .hero h1 { font-size: clamp(46px, 12.5vw, 56px); letter-spacing: -.045em; hyphens: auto; }
+  html[lang="nl"] .hero h1 { font-size: clamp(40px, 11.8vw, 52px); letter-spacing: -.045em; }
+  html[lang="de"] .hero h1 { font-size: clamp(38px, 10.8vw, 48px); letter-spacing: -.045em; hyphens: auto; }
+  html[lang="ar"] .hero h1 { font-size: clamp(42px, 12vw, 54px); letter-spacing: -.02em; line-height: 1.02; }
   .instagram-mini { width: 38px; height: 38px; }
   .subpage-hero { height: 640px; min-height: 640px; }
   .subpage-hero-content, [dir="rtl"] .subpage-hero-content { top: auto; right: 18px; bottom: 78px; left: 18px; width: auto; transform: none; }
