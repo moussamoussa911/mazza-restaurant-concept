@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Gabriela&family=Noto+Kufi+Arabic:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css?v=10" />
+    <link rel="stylesheet" href="/styles.css?v=11" />
   </head>
   <body data-page="menu">
     <svg class="svg-sprite" aria-hidden="true">
@@ -42,7 +42,16 @@
 
         <div class="menu-browser reveal" id="volledige-kaart">
           <div class="menu-browser-head"><div><span data-i18n="menu.browserLabel">De hele kaart</span><strong data-i18n="menu.browserTitle">Wat mag er op tafel?</strong></div><label class="menu-search"><svg><use href="#i-search" /></svg><input type="search" data-menu-search data-i18n-placeholder="menu.search" placeholder="Zoek hummus, kip, vegan…" /></label></div>
-          <div class="menu-tabs" role="group" aria-label="Menu category"><button class="menu-filter active" type="button" data-category="all"><span data-i18n="categories.all">Alles</span><small>52</small></button><button class="menu-filter" type="button" data-category="koud"><span data-i18n="categories.koud">Koude mazza</span><small>12</small></button><button class="menu-filter" type="button" data-category="warm"><span data-i18n="categories.warm">Warme mazza</span><small>12</small></button><button class="menu-filter" type="button" data-category="salade"><span data-i18n="categories.salade">Salades</span><small>4</small></button><button class="menu-filter" type="button" data-category="grill"><span data-i18n="categories.grill">Grill</span><small>10</small></button><button class="menu-filter" type="button" data-category="vis"><span data-i18n="categories.vis">Vis</span><small>5</small></button><button class="menu-filter" type="button" data-category="vega"><span data-i18n="categories.vega">Vegetarisch</span><small>2</small></button><button class="menu-filter" type="button" data-category="dessert"><span data-i18n="categories.dessert">Dessert</span><small>7</small></button></div>
+          <div class="menu-tabs" role="group" aria-label="Menu category">
+            <button class="menu-filter active" type="button" data-category="all"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1" /><rect x="14" y="4" width="6" height="6" rx="1" /><rect x="4" y="14" width="6" height="6" rx="1" /><rect x="14" y="14" width="6" height="6" rx="1" /></svg><span data-i18n="categories.all">Alles</span><small>52</small></button>
+            <button class="menu-filter" type="button" data-category="koud"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9 5l3 2 3-2M9 19l3-2 3 2" /></svg><span data-i18n="categories.koud">Koude mazza</span><small>12</small></button>
+            <button class="menu-filter" type="button" data-category="warm"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 3c1 4-2 5-2 8 0 1.5 1 2.4 2.2 2.4 2.1 0 3.1-2.2 2.5-4.4 2.2 1.7 3.3 3.8 3.3 6.1A7 7 0 0 1 5 15c0-3 1.7-5.5 4.7-7.8-.2 2.8.7 4.1 1.8 4.5" /></svg><span data-i18n="categories.warm">Warme mazza</span><small>12</small></button>
+            <button class="menu-filter" type="button" data-category="salade"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16c-.5 5.4-3.2 8-8 8s-7.5-2.6-8-8ZM7 8c1.2-2 3-3 5-3M12 9c1-2.5 2.7-3.8 5-4" /></svg><span data-i18n="categories.salade">Salades</span><small>4</small></button>
+            <button class="menu-filter" type="button" data-category="grill"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 10h14v3a7 7 0 0 1-14 0v-3ZM8 18l-1 3M16 18l1 3M7 6c0-1 1-1 1-2M12 6c0-1 1-1 1-2M17 6c0-1 1-1 1-2" /></svg><span data-i18n="categories.grill">Grill</span><small>10</small></button>
+            <button class="menu-filter" type="button" data-category="vis"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12c3.2-4 7-5.5 11.5-3L20 6v12l-4.5-3C11 17.5 7.2 16 4 12Z" /><circle cx="14.5" cy="11" r=".7" /></svg><span data-i18n="categories.vis">Vis</span><small>5</small></button>
+            <button class="menu-filter" type="button" data-category="vega"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20v-8M12 14c-4.5 0-7-2.3-7-7 4.4 0 7 2.4 7 7ZM12 11c0-4.4 2.3-6.7 7-7 0 4.5-2.3 7-7 7Z" /></svg><span data-i18n="categories.vega">Vegetarisch</span><small>2</small></button>
+            <button class="menu-filter" type="button" data-category="dessert"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 11h14v9H5v-9ZM5 15h14M8 11c0-2.3 1.3-3.5 4-3.5s4 1.2 4 3.5M12 7.5V4M10.5 4h3" /></svg><span data-i18n="categories.dessert">Dessert</span><small>7</small></button>
+          </div>
           <div class="menu-result-line"><span data-menu-result-meta></span><div><i class="diet-dot veg"></i><span data-i18n="menu.vegetarian">vegetarisch</span><i class="diet-dot vegan"></i><span data-i18n="menu.vegan">vegan</span></div></div>
           <div class="menu-grid" data-menu-grid></div>
           <div class="menu-empty" data-menu-empty hidden><strong data-i18n="menu.empty">Niets gevonden.</strong><button type="button" data-reset-menu data-i18n="menu.reset">Bekijk alles</button></div>
@@ -55,6 +64,6 @@
 
     <footer class="site-footer" id="footer"><div class="footer-top"><img src="/assets/mazza-logo.svg" alt="Mazza" /><p data-i18n-html="footer.tagline">Libanese smaken.<br />Eindeloze gastvrijheid.</p><div class="footer-origin"><span class="footer-arabic" lang="ar" dir="rtl" translate="no">مَزَّة</span><span class="footer-flags" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span></div></div><div class="footer-word" aria-label="Mazza" translate="no"><span>M</span><span>A</span><span>Z</span><span>Z</span><span>A</span></div><div class="footer-row"><div><span data-i18n="footer.follow">Volg ons</span><a href="https://www.instagram.com/restaurantmazza/" target="_blank" rel="noopener">Instagram ↗</a></div><div><span data-i18n="footer.call">Direct reserveren</span><a href="tel:0537504170">053 · 750 41 70</a></div><div><span>© <span data-year></span> Mazza Enschede</span><small data-i18n="footer.concept">Interactieve conceptwebsite</small></div></div></footer>
     <a class="mobile-book" href="/reserveren"><span data-i18n="hero.book">Kies je tafel</span><svg><use href="#i-arrow" /></svg></a>
-    <script src="/app.js?v=7"></script>
+    <script src="/app.js?v=8"></script>
   </body>
 </html>

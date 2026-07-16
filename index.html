@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Gabriela&family=Noto+Kufi+Arabic:wght@400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css?v=10" />
+    <link rel="stylesheet" href="/styles.css?v=11" />
   </head>
   <body data-page="home">
     <svg class="svg-sprite" aria-hidden="true">
@@ -60,8 +60,9 @@
         <div class="hero-shade"></div>
         <div class="hero-content">
           <div class="hero-eyebrow origin-badge"><span class="origin-flags" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span><span data-i18n="hero.eyebrow">Libanese keuken · Enschede</span></div>
-          <h1 data-i18n-html="hero.title">Pure smaak.<br /><em>Warme gastvrijheid.</em></h1>
-          <p data-i18n="hero.copy">Een tafel vol kleine gerechten, vuur van de grill en de warmte van samen eten.</p>
+          <h1 class="hero-title" data-i18n-html="hero.title">Proef. Deel.<br /><em>Blijf nog even.</em></h1>
+          <div class="hero-ritual" aria-hidden="true"><i></i><span data-i18n="hero.ritual">Vuur · tafel · samen</span></div>
+          <p data-i18n="hero.copy">Geen stijve gangen. Wel vuur, volle tafels en smaken die je samen ontdekt.</p>
           <div class="hero-actions">
             <a class="primary-button" href="/reserveren"><span data-i18n="hero.book">Kies je tafel</span><svg><use href="#i-arrow" /></svg></a>
             <a class="text-button" href="/menu"><span data-i18n="hero.menu">Ontdek het menu</span><svg><use href="#i-arrow" /></svg></a>
@@ -83,7 +84,14 @@
       <section class="story section home-story">
         <div class="section-heading reveal"><span class="section-index" data-i18n="story.index">01 · Het verhaal</span><h2 data-i18n-html="story.title">Een avond die begint<br />met <em>één klein bordje.</em></h2></div>
         <div class="story-layout">
-          <figure class="story-main-photo reveal"><img src="/assets/dining.jpg" alt="Samen tafelen bij Mazza" loading="lazy" /><figcaption><span>Walstraat 1</span><strong data-i18n="story.photoCaption">Een warme wereld in hartje Enschede.</strong></figcaption></figure>
+          <div class="story-main-photo story-motion-card reveal" role="img" aria-label="Mazza shared dining">
+            <div class="story-motion-grid" aria-hidden="true"></div>
+            <figure class="story-motion-image story-motion-image-main"><img src="/assets/falafel-plate.webp" alt="Falafel om samen te delen" loading="lazy" /></figure>
+            <figure class="story-motion-image story-motion-image-accent"><img src="/assets/instagram-shrimps.jpg" alt="Shrimps van Restaurant Mazza" loading="lazy" /></figure>
+            <div class="story-motion-orbit" aria-hidden="true"><span></span></div>
+            <span class="story-motion-arabic" lang="ar" dir="rtl" translate="no">صحتين</span>
+            <div class="story-motion-caption"><span>Mazza · shared dining</span><strong data-i18n="story.photoCaption">Een warme wereld in hartje Enschede.</strong></div>
+          </div>
           <div class="story-copy reveal"><span class="arabic-mark" lang="ar" dir="rtl" translate="no">مَزَّة</span><p class="story-lead" data-i18n="story.lead">Mazza betekent blijven proeven, delen en praten. Het Arabische antwoord op tapas, met de gastvrijheid van thuis.</p><p data-i18n="story.body">Koude en warme mazza, geurende kruiden en gerechten van de grill komen midden op tafel. Niemand bestelt alleen voor zichzelf.</p><a href="/over-ons" class="line-link"><span data-i18n="nav.story">Ons verhaal</span><svg><use href="#i-arrow" /></svg></a></div>
           <figure class="story-detail-photo reveal"><img src="/assets/food-detail.jpg" alt="Libanees gerecht" loading="lazy" /></figure>
           <blockquote class="story-quote reveal"><svg><use href="#i-spark" /></svg><p data-i18n="story.quote">“De tafel is pas compleet als iedereen mee-eet.”</p><span data-i18n="story.quoteBy">— Onze favoriete huisregel</span></blockquote>
@@ -118,7 +126,14 @@
       <section class="contact-section section">
         <div class="contact-card reveal">
           <div class="contact-copy"><span class="section-index" data-i18n="contact.index">05 · Tot vanavond</span><h2 data-i18n-html="contact.title">Hartje Enschede.<br /><em>Een wereld verder.</em></h2><div class="contact-facts"><div><svg><use href="#i-pin" /></svg><p><span data-i18n="contact.address">Adres</span><strong>Walstraat 1<br />7511 GE Enschede</strong></p></div><div><svg><use href="#i-clock" /></svg><p><span data-i18n="contact.hours">Openingstijden</span><strong><b data-i18n="common.daily">Elke dag open</b><br />16:00 — 22:00</strong></p></div><div><svg><use href="#i-phone" /></svg><p><span data-i18n="contact.reserve">Reserveren</span><strong>053 · 750 41 70<br />info@restaurantmazza.nl</strong></p></div></div><a class="primary-button dark-button" href="/reserveren"><span data-i18n="nav.book">Reserveer</span><svg><use href="#i-arrow" /></svg></a></div>
-          <figure><img src="/assets/dining.jpg" alt="Restaurant Mazza Enschede" loading="lazy" /><figcaption><span>52.2189° N</span><strong data-i18n="contact.almost">Je bent er bijna.</strong></figcaption></figure>
+          <div class="contact-visual" aria-label="Restaurant Mazza, Walstraat 1, Enschede">
+            <div class="contact-map-orbit contact-map-orbit-one" aria-hidden="true"></div>
+            <div class="contact-map-orbit contact-map-orbit-two" aria-hidden="true"></div>
+            <div class="contact-map-pin" aria-hidden="true"><svg><use href="#i-pin" /></svg></div>
+            <span class="contact-map-arabic" lang="ar" dir="rtl" translate="no">مَزَّة</span>
+            <div class="contact-map-address"><small>Walstraat 1</small><strong>Enschede</strong></div>
+            <div class="contact-map-coordinates"><span>52.2189° N · 6.8958° E</span><strong data-i18n="contact.almost">Je bent er bijna.</strong></div>
+          </div>
         </div>
       </section>
     </main>
@@ -130,6 +145,6 @@
     </footer>
 
     <a class="mobile-book" href="/reserveren"><span data-i18n="hero.book">Kies je tafel</span><svg><use href="#i-arrow" /></svg></a>
-    <script src="/app.js?v=7"></script>
+    <script src="/app.js?v=8"></script>
   </body>
 </html>
