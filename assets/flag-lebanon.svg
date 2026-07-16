@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Flag of Lebanon">
+  <path fill="#ed1c24" d="M0 0h900v150H0zM0 450h900v150H0z"/>
+  <path fill="#fff" d="M0 150h900v300H0z"/>
+  <path fill="#00a651" d="M450 188l-48 73h31l-58 78h42l-71 87h82v36h44v-36h82l-71-87h42l-58-78h31z"/>
+</svg>

@@ -3,7 +3,7 @@ const localeCodes = { nl: "nl-NL", de: "de-DE", ar: "ar-LB" };
 const copy = {
   nl: {
     "nav.story": "Ons verhaal", "nav.menu": "Menukaart", "nav.atmosphere": "Sfeer", "nav.visit": "Bezoek ons", "nav.book": "Reserveer", "nav.openMenu": "Menu openen",
-    "mobile.intro": "Ontdek Mazza", "common.daily": "Elke dag open",
+    "mobile.intro": "Ontdek Mazza", "common.daily": "Elke dag open", "social.live": "Live cooking · Instagram", "social.kebab": "Kebab · kersensaus", "social.official": "Officieel Mazza ↗",
     "hero.eyebrow": "Arabisch-Libanese keuken · Enschede", "hero.title": "Pure smaak.<br /><em>Warme gastvrijheid.</em>", "hero.copy": "Een tafel vol kleine gerechten, vuur van de grill en de warmte van samen eten.", "hero.book": "Kies je tafel", "hero.menu": "Ontdek het menu", "hero.tonight": "Vanavond bij Mazza", "hero.available": "Er zijn nog tafels beschikbaar.", "hero.choose": "Kies zelf waar je wilt zitten.", "hero.start": "Start reservering", "hero.locationLabel": "Midden in Enschede", "hero.hoursLabel": "Zeven dagen per week", "hero.arabicLabel": "Proeven · delen · blijven",
     "story.index": "01 · Het verhaal", "story.title": "Een avond die begint<br />met <em>één klein bordje.</em>", "story.photoCaption": "Een warme wereld in hartje Enschede.", "story.lead": "Mazza betekent blijven proeven, delen en praten. Het Arabische antwoord op tapas, met de gastvrijheid van thuis.", "story.body": "Koude en warme mazza, geurende kruiden en gerechten van de grill komen midden op tafel. Niemand bestelt alleen voor zichzelf.", "story.link": "Bekijk wat er op tafel komt", "story.quote": "“De tafel is pas compleet als iedereen mee-eet.”", "story.quoteBy": "— Onze favoriete huisregel",
     "menu.index": "02 · De menukaart", "menu.title": "Kies klein.<br /><em>Proef groots.</em>", "menu.copy": "Van romige hummus tot vuur van de grill. Zoek, filter en stel in gedachten je tafel alvast samen.", "menu.grillLabel": "Van de grill", "menu.warmLabel": "Warme mazza", "menu.shareLabel": "Om te delen", "menu.sharePrice": "vanaf € 52,95 p.p.", "menu.sweetLabel": "Zoete finale", "menu.browserLabel": "De hele kaart", "menu.browserTitle": "Wat mag er op tafel?", "menu.search": "Zoek hummus, kip, vegan…", "menu.vegetarian": "vegetarisch", "menu.vegan": "vegan", "menu.empty": "Niets gevonden.", "menu.reset": "Bekijk alles", "menu.allergy": "Allergie of dieetwens? Vertel het ons — bijna altijd kunnen we iets lekkers maken.", "menu.pdf": "Originele menukaart", "menu.resultOne": "gerecht", "menu.resultMany": "gerechten",
@@ -20,7 +20,7 @@ const copy = {
   },
   de: {
     "nav.story": "Unsere Geschichte", "nav.menu": "Speisekarte", "nav.atmosphere": "Atmosphäre", "nav.visit": "Besuchen", "nav.book": "Reservieren", "nav.openMenu": "Menü öffnen",
-    "mobile.intro": "Mazza entdecken", "common.daily": "Täglich geöffnet",
+    "mobile.intro": "Mazza entdecken", "common.daily": "Täglich geöffnet", "social.live": "Live-Cooking · Instagram", "social.kebab": "Kebab · Sauerkirsche", "social.official": "Offiziell Mazza ↗",
     "hero.eyebrow": "Arabisch-libanesische Küche · Enschede", "hero.title": "Reiner Geschmack.<br /><em>Warme Gastfreundschaft.</em>", "hero.copy": "Ein Tisch voller kleiner Gerichte, Feuer vom Grill und der Wärme gemeinsamen Essens.", "hero.book": "Tisch auswählen", "hero.menu": "Speisekarte entdecken", "hero.tonight": "Heute Abend bei Mazza", "hero.available": "Es sind noch Tische verfügbar.", "hero.choose": "Wählen Sie selbst Ihren Lieblingsplatz.", "hero.start": "Reservierung starten", "hero.locationLabel": "Mitten in Enschede", "hero.hoursLabel": "Sieben Tage die Woche", "hero.arabicLabel": "Probieren · teilen · bleiben",
     "story.index": "01 · Die Geschichte", "story.title": "Ein Abend, der mit<br /><em>einem kleinen Teller beginnt.</em>", "story.photoCaption": "Eine warme Welt mitten in Enschede.", "story.lead": "Mazza bedeutet weiterprobieren, teilen und reden. Die arabische Antwort auf Tapas — mit der Gastfreundschaft von zu Hause.", "story.body": "Kalte und warme Mazza, duftende Gewürze und Gerichte vom Grill kommen in die Mitte des Tisches. Niemand bestellt nur für sich.", "story.link": "Entdecken, was auf den Tisch kommt", "story.quote": "„Der Tisch ist erst vollständig, wenn alle mitessen.“", "story.quoteBy": "— Unsere liebste Hausregel",
     "menu.index": "02 · Die Speisekarte", "menu.title": "Klein wählen.<br /><em>Groß genießen.</em>", "menu.copy": "Von cremigem Hummus bis zum Feuer des Grills. Suchen, filtern und den Tisch im Kopf schon zusammenstellen.", "menu.grillLabel": "Vom Grill", "menu.warmLabel": "Warme Mazza", "menu.shareLabel": "Zum Teilen", "menu.sharePrice": "ab 52,95 € p. P.", "menu.sweetLabel": "Süßes Finale", "menu.browserLabel": "Die ganze Karte", "menu.browserTitle": "Was darf auf den Tisch?", "menu.search": "Hummus, Hähnchen, vegan suchen…", "menu.vegetarian": "vegetarisch", "menu.vegan": "vegan", "menu.empty": "Nichts gefunden.", "menu.reset": "Alles anzeigen", "menu.allergy": "Allergie oder besondere Ernährung? Sagen Sie uns Bescheid — fast immer finden wir etwas Köstliches.", "menu.pdf": "Originale Speisekarte", "menu.resultOne": "Gericht", "menu.resultMany": "Gerichte",
@@ -37,7 +37,7 @@ const copy = {
   },
   ar: {
     "nav.story": "قصتنا", "nav.menu": "قائمة الطعام", "nav.atmosphere": "الأجواء", "nav.visit": "زورونا", "nav.book": "احجز", "nav.openMenu": "افتح القائمة",
-    "mobile.intro": "اكتشف مزّة", "common.daily": "مفتوح يومياً",
+    "mobile.intro": "اكتشف مزّة", "common.daily": "مفتوح يومياً", "social.live": "طهي مباشر · إنستغرام", "social.kebab": "كباب · كرز حامض", "social.official": "مزّة الرسمي ↗",
     "hero.eyebrow": "مطبخ عربي لبناني · إنسخيده", "hero.title": "نكهة أصيلة.<br /><em>ضيافة دافئة.</em>", "hero.copy": "مائدة مليئة بالأطباق الصغيرة ونار المشاوي ودفء الطعام المشترك.", "hero.book": "اختر طاولتك", "hero.menu": "اكتشف القائمة", "hero.tonight": "هذا المساء في مزّة", "hero.available": "لا تزال هناك طاولات متاحة.", "hero.choose": "اختر بنفسك المكان الذي تحب الجلوس فيه.", "hero.start": "ابدأ الحجز", "hero.locationLabel": "في قلب إنسخيده", "hero.hoursLabel": "سبعة أيام في الأسبوع", "hero.arabicLabel": "تذوّق · شارك · ابقَ",
     "story.index": "01 · الحكاية", "story.title": "أمسية تبدأ<br /><em>بطبق صغير واحد.</em>", "story.photoCaption": "عالم دافئ في قلب إنسخيده.", "story.lead": "مزّة تعني أن تواصل التذوق والمشاركة والحديث. إنها الإجابة العربية على التاباس، بضيافة البيت.", "story.body": "مزّات باردة وساخنة، توابل عطرة وأطباق مشوية تصل إلى وسط المائدة. لا أحد يطلب لنفسه وحده.", "story.link": "اكتشف ما سيصل إلى المائدة", "story.quote": "«لا تكتمل المائدة حتى يشارك الجميع.»", "story.quoteBy": "— قاعدتنا المفضلة في البيت",
     "video.index": "مزّة في حركة", "video.title": "عِش أجواء المساء<br /><em>قبل أن تدخل.</em>", "video.copy": "ضوء دافئ ونار مفتوحة ومائدة تمتلئ طبقاً بعد طبق.", "video.link": "احجز أمسيتك", "video.badge": "مزّة الحقيقي<br />إنسخيده",
@@ -129,6 +129,7 @@ function dietBadges(diets) {
 }
 
 function renderMenu() {
+  if (!menuGrid || !menuSearch || !menuMeta || !menuEmpty) return;
   const query = menuSearch.value.trim().toLocaleLowerCase(localeCodes[currentLang]);
   const filtered = menuItems.filter((item) => {
     const categoryMatch = activeCategory === "all" || item.category === activeCategory;
@@ -144,8 +145,8 @@ menuFilters.forEach((button) => button.addEventListener("click", () => {
   menuFilters.forEach((item) => item.classList.toggle("active", item === button));
   renderMenu();
 }));
-menuSearch.addEventListener("input", renderMenu);
-document.querySelector("[data-reset-menu]").addEventListener("click", () => {
+menuSearch?.addEventListener("input", renderMenu);
+document.querySelector("[data-reset-menu]")?.addEventListener("click", () => {
   activeCategory = "all";
   menuSearch.value = "";
   menuFilters.forEach((button) => button.classList.toggle("active", button.dataset.category === "all"));
@@ -155,20 +156,21 @@ document.querySelector("[data-reset-menu]").addEventListener("click", () => {
 const header = document.querySelector("[data-header]");
 const menuToggle = document.querySelector("[data-menu-toggle]");
 const mobileMenu = document.querySelector("[data-mobile-menu]");
-window.addEventListener("scroll", () => header.classList.toggle("scrolled", window.scrollY > 40), { passive: true });
+window.addEventListener("scroll", () => header?.classList.toggle("scrolled", window.scrollY > 40), { passive: true });
 
 function closeMobileMenu() {
+  if (!menuToggle || !mobileMenu) return;
   menuToggle.setAttribute("aria-expanded", "false");
   mobileMenu.classList.remove("open");
   document.body.classList.remove("menu-open");
 }
-menuToggle.addEventListener("click", () => {
+menuToggle?.addEventListener("click", () => {
   const open = menuToggle.getAttribute("aria-expanded") !== "true";
   menuToggle.setAttribute("aria-expanded", String(open));
   mobileMenu.classList.toggle("open", open);
   document.body.classList.toggle("menu-open", open);
 });
-mobileMenu.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMobileMenu));
+mobileMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMobileMenu));
 
 const revealObserver = new IntersectionObserver((entries, observer) => {
   entries.forEach((entry) => {
@@ -179,7 +181,7 @@ const revealObserver = new IntersectionObserver((entries, observer) => {
   });
 }, { threshold: 0.1, rootMargin: "0px 0px -25px" });
 document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
-document.querySelector("[data-year]").textContent = new Date().getFullYear();
+document.querySelectorAll("[data-year]").forEach((element) => { element.textContent = new Date().getFullYear(); });
 
 const bookingState = { step: 1, guests: 2, selectedDate: null, time: null, tableId: null, viewDate: null, firstName: "" };
 const today = new Date();
@@ -272,8 +274,8 @@ function renderCalendar() {
   }));
   prevMonthButton.disabled = bookingState.viewDate <= new Date(today.getFullYear(), today.getMonth(), 1);
 }
-prevMonthButton.addEventListener("click", () => { bookingState.viewDate = new Date(bookingState.viewDate.getFullYear(), bookingState.viewDate.getMonth() - 1, 1); renderCalendar(); });
-nextMonthButton.addEventListener("click", () => {
+prevMonthButton?.addEventListener("click", () => { bookingState.viewDate = new Date(bookingState.viewDate.getFullYear(), bookingState.viewDate.getMonth() - 1, 1); renderCalendar(); });
+nextMonthButton?.addEventListener("click", () => {
   const candidate = new Date(bookingState.viewDate.getFullYear(), bookingState.viewDate.getMonth() + 1, 1);
   if (candidate <= new Date(today.getFullYear(), today.getMonth() + 3, 1)) bookingState.viewDate = candidate;
   renderCalendar();
@@ -363,17 +365,17 @@ function renderFinalSummary() {
   if (!table || !bookingState.selectedDate) return;
   finalSummary.innerHTML = `<span>${t("booking.yourEvening")}</span><h4>${t("booking.readyTitle")}</h4><div class="summary-row"><svg><use href="#i-calendar" /></svg><div><small>${t("booking.date")}</small><strong>${formatLongDate(bookingState.selectedDate)}</strong></div></div><div class="summary-row"><svg><use href="#i-clock" /></svg><div><small>${t("booking.time")}</small><strong>${bookingState.time}</strong></div></div><div class="summary-row"><svg><use href="#i-users" /></svg><div><small>${t("booking.party")}</small><strong>${guestCountLabel(bookingState.guests)}</strong></div></div><div class="summary-row"><svg><use href="#i-pin" /></svg><div><small>${t("booking.place")}</small><strong>${t("booking.table")} ${table.id} · ${areaName(table)}</strong></div></div><div class="summary-note">${t("booking.summaryDemo")}</div>`;
 }
-toTablesButton.addEventListener("click", () => setBookingScreen(2));
-toDetailsButton.addEventListener("click", () => setBookingScreen(3));
-document.querySelector("[data-back-when]").addEventListener("click", () => setBookingScreen(1));
-document.querySelector("[data-back-tables]").addEventListener("click", () => setBookingScreen(2));
+toTablesButton?.addEventListener("click", () => setBookingScreen(2));
+toDetailsButton?.addEventListener("click", () => setBookingScreen(3));
+document.querySelector("[data-back-when]")?.addEventListener("click", () => setBookingScreen(1));
+document.querySelector("[data-back-tables]")?.addEventListener("click", () => setBookingScreen(2));
 stepChips.forEach((chip) => chip.addEventListener("click", () => setBookingScreen(Number(chip.dataset.stepChip))));
 
 function renderSuccessCopy() {
   if (!bookingState.firstName || !bookingState.selectedDate || !bookingState.tableId) return;
   document.querySelector("[data-success-copy]").textContent = t("success.copy").replace("{name}", bookingState.firstName).replace("{date}", formatLongDate(bookingState.selectedDate)).replace("{time}", bookingState.time).replace("{table}", bookingState.tableId);
 }
-bookingForm.addEventListener("submit", (event) => {
+bookingForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   if (!bookingForm.reportValidity()) return;
   const data = new FormData(bookingForm);
@@ -384,7 +386,7 @@ bookingForm.addEventListener("submit", (event) => {
   renderSuccessCopy();
   document.querySelector("[data-success-reference]").textContent = `MZ-${dateKey(bookingState.selectedDate).replaceAll("-", "").slice(2)}-${Math.floor(100 + Math.random() * 900)}`;
 });
-document.querySelector("[data-booking-reset]").addEventListener("click", () => {
+document.querySelector("[data-booking-reset]")?.addEventListener("click", () => {
   bookingForm.reset(); bookingSuccess.hidden = true; document.querySelector(".booking-stepper").hidden = false;
   Object.assign(bookingState, { step: 1, guests: 2, selectedDate: null, time: null, tableId: null, viewDate: new Date(today.getFullYear(), today.getMonth(), 1), firstName: "" });
   toTablesButton.disabled = true; toDetailsButton.disabled = true;
@@ -398,22 +400,34 @@ function translatePage(lang, persist = true) {
   currentLang = lang;
   document.documentElement.lang = lang;
   document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
-  document.title = lang === "nl" ? "Mazza Enschede — Libanese gastvrijheid" : lang === "de" ? "Mazza Enschede — Libanesische Gastfreundschaft" : "مزّة إنسخيده — ضيافة لبنانية";
+  const page = document.body.dataset.page || "home";
+  const pageTitles = {
+    nl: { home: "Mazza Enschede — Libanese gastvrijheid", menu: "Menukaart | Mazza Enschede", booking: "Reserveren | Mazza Enschede", about: "Over Mazza | Restaurant Mazza Enschede" },
+    de: { home: "Mazza Enschede — Libanesische Gastfreundschaft", menu: "Speisekarte | Mazza Enschede", booking: "Reservieren | Mazza Enschede", about: "Über Mazza | Restaurant Mazza Enschede" },
+    ar: { home: "مزّة إنسخيده — ضيافة لبنانية", menu: "قائمة الطعام | مزّة إنسخيده", booking: "احجز طاولتك | مزّة إنسخيده", about: "عن مزّة | مطعم مزّة إنسخيده" }
+  };
+  document.title = pageTitles[lang][page] || pageTitles[lang].home;
   document.querySelectorAll("[data-i18n]").forEach((element) => { element.textContent = t(element.dataset.i18n); });
   document.querySelectorAll("[data-i18n-html]").forEach((element) => { element.innerHTML = t(element.dataset.i18nHtml); });
   document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => { element.placeholder = t(element.dataset.i18nPlaceholder); });
   document.querySelectorAll("[data-i18n-aria]").forEach((element) => { element.setAttribute("aria-label", t(element.dataset.i18nAria)); });
   document.querySelectorAll("[data-lang]").forEach((button) => { button.classList.toggle("active", button.dataset.lang === lang); button.setAttribute("aria-pressed", String(button.dataset.lang === lang)); });
   if (persist) localStorage.setItem("mazza-language", lang);
-  renderMenu(); renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState();
-  if (bookingState.tableId) selectTable(bookingState.tableId); else {
-    selectedTableLabel.textContent = t("booking.noTable");
-    document.querySelector("[data-step-two-summary]").textContent = t("booking.chooseTable");
+  renderMenu();
+  if (bookingForm) {
+    renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState();
+    if (bookingState.tableId) selectTable(bookingState.tableId); else {
+      selectedTableLabel.textContent = t("booking.noTable");
+      document.querySelector("[data-step-two-summary]").textContent = t("booking.chooseTable");
+    }
+    if (bookingState.step === 2) renderFloorPlan();
+    if (bookingState.step === 3) renderFinalSummary();
+    renderSuccessCopy();
   }
-  if (bookingState.step === 2) renderFloorPlan();
-  if (bookingState.step === 3) renderFinalSummary();
-  renderSuccessCopy();
 }
 document.querySelectorAll("[data-lang]").forEach((button) => button.addEventListener("click", () => translatePage(button.dataset.lang)));
 
-renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState(); setBookingScreen(1); translatePage(currentLang, false);
+if (bookingForm) {
+  renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState(); setBookingScreen(1);
+}
+translatePage(currentLang, false);

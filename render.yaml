@@ -8,5 +8,14 @@ services:
     autoDeploy: true
     routes:
       - type: rewrite
+        source: /menu
+        destination: /menu.html
+      - type: rewrite
+        source: /reserveren
+        destination: /reserveren.html
+      - type: rewrite
+        source: /over-ons
+        destination: /over-ons.html
+      - type: rewrite
         source: /*
         destination: /index.html
