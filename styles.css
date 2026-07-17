@@ -33,7 +33,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 
 .site-header { position: fixed; z-index: 1000; top: 18px; left: 50%; display: grid; grid-template-columns: 155px 1fr auto; width: min(1450px, calc(100% - 36px)); height: 78px; padding: 0 12px 0 24px; align-items: center; transform: translateX(-50%); background: rgba(7, 6, 11, .48); border: 1px solid rgba(247, 211, 166, .18); border-radius: 100px; box-shadow: 0 15px 50px rgba(0, 0, 0, .16); backdrop-filter: blur(18px); transition: background .3s ease, border-color .3s ease, top .3s ease; }
 .site-header.scrolled { top: 10px; background: rgba(7, 6, 11, .92); border-color: rgba(247, 211, 166, .25); }
-.brand { position: relative; display: block; width: 116px; isolation: isolate; }
+.brand { --logo-cycle: 9.6s; position: relative; display: block; width: 116px; overflow: visible; isolation: isolate; }
 .brand img { height: 51px; object-fit: contain; filter: brightness(0) invert(1); }
 .brand::before,
 .brand::after {
@@ -46,7 +46,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   z-index: 1;
   background: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
   clip-path: inset(0 100% 0 0);
-  animation: mazzaMSignature 8.8s cubic-bezier(.65, 0, .18, 1) infinite;
+  animation: mazzaMSignature var(--logo-cycle) cubic-bezier(.65, 0, .18, 1) infinite;
   will-change: clip-path, opacity, filter;
 }
 .brand::after {
@@ -55,8 +55,40 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   background: linear-gradient(105deg, transparent 20%, rgba(255,255,255,.92) 46%, #f7d3a6 54%, transparent 80%) -65% 0 / 38% 100% no-repeat;
   -webkit-mask: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
   mask: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
-  animation: mazzaMSheen 8.8s cubic-bezier(.4, 0, .2, 1) infinite;
+  animation: mazzaMSheen var(--logo-cycle) cubic-bezier(.4, 0, .2, 1) infinite;
   will-change: background-position, opacity;
+}
+.brand-wine {
+  position: absolute;
+  z-index: 3;
+  top: 24px;
+  right: -20px;
+  width: 24px;
+  height: 34px;
+  color: rgba(255,253,248,.82);
+  opacity: 0;
+  pointer-events: none;
+  animation: mazzaWineStage var(--logo-cycle) ease-in-out infinite;
+}
+.brand-wine svg { display: block; width: 100%; height: 100%; overflow: visible; }
+.brand-wine-glass { fill: none; stroke: currentColor; stroke-width: 1.25; }
+.brand-wine-stream {
+  fill: none;
+  stroke: #b53a27;
+  stroke-width: 1.75;
+  stroke-dasharray: 26;
+  stroke-dashoffset: 26;
+  filter: drop-shadow(0 0 3px rgba(181,58,39,.55));
+  animation: mazzaWinePour var(--logo-cycle) cubic-bezier(.45, 0, .25, 1) infinite;
+}
+.brand-wine-liquid {
+  fill: #9b3220;
+  stroke: none;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-box: fill-box;
+  transform-origin: center bottom;
+  animation: mazzaWineFill var(--logo-cycle) cubic-bezier(.3, 0, .2, 1) infinite;
 }
 .desktop-nav { display: flex; justify-content: center; gap: clamp(20px, 3vw, 48px); }
 .desktop-nav a { position: relative; padding: 10px 0; color: rgba(255, 253, 248, .72); font-size: 13px; }
@@ -721,15 +753,33 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 @keyframes mazzaMSignature {
   0%, 8% { opacity: 0; clip-path: inset(0 100% 0 0); filter: drop-shadow(0 0 0 rgba(155,50,32,0)); }
   11% { opacity: 1; }
-  42%, 79% { opacity: 1; clip-path: inset(0 0 0 0); filter: drop-shadow(0 0 5px rgba(155,50,32,.28)); }
-  88%, 100% { opacity: 0; clip-path: inset(0 0 0 0); filter: drop-shadow(0 0 0 rgba(155,50,32,0)); }
+  36%, 46% { opacity: 1; clip-path: inset(0 0 0 0); filter: drop-shadow(0 0 5px rgba(155,50,32,.28)); }
+  68% { opacity: 1; clip-path: inset(0 0 0 100%); filter: drop-shadow(0 0 2px rgba(155,50,32,.14)); }
+  72%, 100% { opacity: 0; clip-path: inset(0 0 0 100%); filter: drop-shadow(0 0 0 rgba(155,50,32,0)); }
 }
 @keyframes mazzaMSheen {
-  0%, 42% { opacity: 0; background-position: -65% 0; }
-  46% { opacity: .15; }
-  57% { opacity: .95; }
-  66% { opacity: 0; background-position: 165% 0; }
+  0%, 35% { opacity: 0; background-position: -65% 0; }
+  38% { opacity: .15; }
+  43% { opacity: .95; }
+  49% { opacity: 0; background-position: 165% 0; }
   100% { opacity: 0; background-position: 165% 0; }
+}
+@keyframes mazzaWineStage {
+  0%, 40% { opacity: 0; transform: translate(-2px, -2px); }
+  45%, 82% { opacity: 1; transform: none; }
+  90%, 100% { opacity: 0; transform: translateY(2px); }
+}
+@keyframes mazzaWinePour {
+  0%, 45% { opacity: 0; stroke-dashoffset: 26; }
+  49% { opacity: 1; }
+  66% { opacity: 1; stroke-dashoffset: 0; }
+  71%, 100% { opacity: 0; stroke-dashoffset: 0; }
+}
+@keyframes mazzaWineFill {
+  0%, 50% { opacity: 0; transform: scaleY(0); }
+  54% { opacity: 1; transform: scaleY(.12); }
+  68%, 82% { opacity: 1; transform: scaleY(1); }
+  90%, 100% { opacity: 0; transform: scaleY(1); }
 }
 
 @media (max-width: 1180px) {
@@ -799,6 +849,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .site-header { top: 10px; width: calc(100% - 20px); padding: 0 9px 0 17px; }
   .brand { width: 93px; }
   .brand img { height: 43px; }
+  .brand-wine { top: 20px; right: -10px; width: 20px; height: 30px; }
   .language-switcher button { width: 32px; }
   .hero { min-height: 790px; }
   .hero-media video { object-position: 62% center; }
