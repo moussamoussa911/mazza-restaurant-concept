@@ -8,6 +8,7 @@ const copy = {
     "story.index": "01 · Het verhaal", "story.title": "Eén tafel.<br /><em>Niemand eet alleen.</em>", "story.photoCaption": "Een warme wereld in hartje Enschede.", "story.lead": "Mazza betekent blijven proeven, delen en praten. Het Arabische antwoord op tapas, met de gastvrijheid van thuis.", "story.body": "Koude en warme mazza, geurende kruiden en gerechten van de grill komen midden op tafel. Niemand bestelt alleen voor zichzelf.", "story.link": "Bekijk wat er op tafel komt", "story.quote": "“De tafel is pas compleet als iedereen mee-eet.”", "story.quoteBy": "— Onze favoriete huisregel",
     "menu.index": "02 · De menukaart", "menu.title": "Kies klein.<br /><em>Proef groots.</em>", "menu.copy": "Van romige hummus tot vuur van de grill. Zoek, filter en stel in gedachten je tafel alvast samen.", "menu.grillLabel": "Van de grill", "menu.warmLabel": "Warme mazza", "menu.shareLabel": "Om te delen", "menu.sharePrice": "vanaf € 52,95 p.p.", "menu.sweetLabel": "Zoete finale", "menu.browserLabel": "De hele kaart", "menu.browserTitle": "Wat mag er op tafel?", "menu.search": "Zoek hummus, kip, vegan…", "menu.vegetarian": "vegetarisch", "menu.vegan": "vegan", "menu.empty": "Niets gevonden.", "menu.reset": "Bekijk alles", "menu.allergy": "Allergie of dieetwens? Vertel het ons — bijna altijd kunnen we iets lekkers maken.", "menu.pdf": "Originele menukaart", "menu.resultOne": "gerecht", "menu.resultMany": "gerechten",
     "categories.all": "Alles", "categories.koud": "Koude mazza", "categories.warm": "Warme mazza", "categories.salade": "Salades", "categories.grill": "Grill", "categories.vis": "Vis", "categories.vega": "Vegetarisch", "categories.dessert": "Dessert",
+    "table.title": "Jouw tafel", "table.emptyCompact": "Nog niets gekozen", "table.open": "Bekijk tafel", "table.close": "Sluit tafel", "table.eyebrow": "Live tafelstudio", "table.heading": "Bouw jullie<br /><em>ideale tafel.</em>", "table.clear": "Wis alles", "table.guests": "Personen", "table.lessGuests": "Minder personen", "table.moreGuests": "Meer personen", "table.sceneEmpty": "Jullie tafel wacht", "table.sceneSummary": "{count} voor {guests} personen", "table.emptyTitle": "Begin met één gerecht.", "table.emptyCopy": "Tik op de plus bij de menukaart. Elk bord verschijnt meteen op jullie tafel.", "table.total": "Totaal", "table.perPerson": "Per persoon", "table.disclaimer": "Prijsindicatie op basis van jullie selectie. Je plaatst nog geen bestelling.", "table.add": "Voeg toe", "table.onTable": "op tafel", "table.dishOne": "gerecht", "table.dishMany": "gerechten", "table.compact": "{count} · {total}", "table.minusDish": "Eén minder", "table.plusDish": "Eén meer", "table.removeDish": "Verwijder gerecht",
     "video.index": "Mazza in beweging", "video.title": "Voel de avond<br /><em>voor je binnenstapt.</em>", "video.copy": "Warm licht, open vuur en een tafel die steeds voller wordt.", "video.link": "Reserveer jouw avond", "video.badge": "Echt Mazza<br />Enschede",
     "moments.index": "03 · De sfeer", "moments.title": "Arabische warmte.<br /><em>Een moderne avond.</em>", "moments.caption1": "Warm licht. Lange avond.", "moments.note": "De deuren gaan open.<br />De grill wordt warm.<br />De tafel wacht.", "moments.link": "Vanavond hier?", "moments.caption2": "Gemaakt om te delen.", "moments.caption3": "Altijd vers op tafel.",
     "booking.index": "04 · Reserveer", "booking.title": "Jouw avond.<br /><em>Jouw tafel.</em>", "booking.copy": "Kies het moment, bekijk de zaal en selecteer zelf de plek die bij je avond past.", "booking.when": "Wanneer", "booking.where": "Waar", "booking.who": "Wie", "booking.chooseMoment": "Kies je moment", "booking.chooseTable": "Kies je tafel", "booking.details": "Jouw gegevens", "booking.step1": "Stap 1 van 3", "booking.step2": "Stap 2 van 3", "booking.step3": "Stap 3 van 3", "booking.whenTitle": "Wanneer schuif je aan?", "booking.openInfo": "Elke dag open van 16:00 tot 22:00.", "booking.partySize": "Met hoeveel?", "booking.largeParty": "Meer dan 8? Bel ons even", "booking.chooseDay": "Kies een dag", "booking.notChosen": "Nog niet gekozen", "booking.chooseTime": "Kies een tijd", "booking.early": "Vroeg tafelen", "booking.evening": "Avond", "booking.choice": "Jouw keuze", "booking.chooseDateTime": "Kies een datum en tijd", "booking.viewTables": "Bekijk beschikbare tafels", "booking.whereTitle": "Waar wil je zitten?", "booking.free": "vrij", "booking.best": "beste match", "booking.busy": "bezet", "booking.window": "Raamzijde", "booking.kitchen": "Open keuken", "booking.entrance": "Entree", "booking.tapTable": "Tik een tafel aan", "booking.tapCopy": "Bekijk de plek, sfeer en het aantal zitplaatsen.", "booking.back": "Terug", "booking.selectedPlace": "Geselecteerde plek", "booking.noTable": "Nog geen tafel gekozen", "booking.continueTable": "Verder met deze tafel", "booking.whoTitle": "Voor wie zetten we klaar?", "booking.demo": "Conceptdemo", "booking.demoInfo": "Er wordt nog niets echt verzonden", "booking.confirm": "Bevestig demo", "booking.guests": "gasten", "booking.guest": "gast", "booking.table": "Tafel", "booking.seats": "comfortabele zitplaatsen", "booking.selection": "Jouw selectie", "booking.yourEvening": "Jouw avond bij Mazza", "booking.readyTitle": "Alles staat klaar.<br />Alleen jij nog.", "booking.date": "Datum", "booking.time": "Tijd", "booking.party": "Gezelschap", "booking.place": "Plek", "booking.summaryDemo": "Conceptdemo — in de live versie gaat dit direct naar Mazza.", "booking.chooseAria": "Kies", "booking.occupiedAria": "Bezet", "booking.places": "plaatsen",
@@ -30,6 +31,7 @@ const copy = {
     "story.index": "01 · Die Geschichte", "story.title": "Ein Tisch.<br /><em>Niemand isst allein.</em>", "story.photoCaption": "Eine warme Welt mitten in Enschede.", "story.lead": "Mazza bedeutet weiterprobieren, teilen und reden. Die arabische Antwort auf Tapas — mit der Gastfreundschaft von zu Hause.", "story.body": "Kalte und warme Mazza, duftende Gewürze und Gerichte vom Grill kommen in die Mitte des Tisches. Niemand bestellt nur für sich.", "story.link": "Entdecken, was auf den Tisch kommt", "story.quote": "„Der Tisch ist erst vollständig, wenn alle mitessen.“", "story.quoteBy": "— Unsere liebste Hausregel",
     "menu.index": "02 · Die Speisekarte", "menu.title": "Klein wählen.<br /><em>Groß genießen.</em>", "menu.copy": "Von cremigem Hummus bis zum Feuer des Grills. Suchen, filtern und den Tisch im Kopf schon zusammenstellen.", "menu.grillLabel": "Vom Grill", "menu.warmLabel": "Warme Mazza", "menu.shareLabel": "Zum Teilen", "menu.sharePrice": "ab 52,95 € p. P.", "menu.sweetLabel": "Süßes Finale", "menu.browserLabel": "Die ganze Karte", "menu.browserTitle": "Was darf auf den Tisch?", "menu.search": "Hummus, Hähnchen, vegan suchen…", "menu.vegetarian": "vegetarisch", "menu.vegan": "vegan", "menu.empty": "Nichts gefunden.", "menu.reset": "Alles anzeigen", "menu.allergy": "Allergie oder besondere Ernährung? Sagen Sie uns Bescheid — fast immer finden wir etwas Köstliches.", "menu.pdf": "Originale Speisekarte", "menu.resultOne": "Gericht", "menu.resultMany": "Gerichte",
     "categories.all": "Alles", "categories.koud": "Kalte Mazza", "categories.warm": "Warme Mazza", "categories.salade": "Salate", "categories.grill": "Grill", "categories.vis": "Fisch", "categories.vega": "Vegetarisch", "categories.dessert": "Dessert",
+    "table.title": "Ihr Tisch", "table.emptyCompact": "Noch nichts ausgewählt", "table.open": "Tisch ansehen", "table.close": "Tisch schließen", "table.eyebrow": "Live-Tischstudio", "table.heading": "Bauen Sie Ihren<br /><em>idealen Tisch.</em>", "table.clear": "Alles löschen", "table.guests": "Personen", "table.lessGuests": "Weniger Personen", "table.moreGuests": "Mehr Personen", "table.sceneEmpty": "Ihr Tisch wartet", "table.sceneSummary": "{count} für {guests} Personen", "table.emptyTitle": "Beginnen Sie mit einem Gericht.", "table.emptyCopy": "Tippen Sie bei der Speisekarte auf das Plus. Jeder Teller erscheint sofort auf Ihrem Tisch.", "table.total": "Gesamt", "table.perPerson": "Pro Person", "table.disclaimer": "Preisübersicht auf Grundlage Ihrer Auswahl. Es wird noch keine Bestellung aufgegeben.", "table.add": "Hinzufügen", "table.onTable": "auf dem Tisch", "table.dishOne": "Gericht", "table.dishMany": "Gerichte", "table.compact": "{count} · {total}", "table.minusDish": "Eines weniger", "table.plusDish": "Eines mehr", "table.removeDish": "Gericht entfernen",
     "video.index": "Mazza in Bewegung", "video.title": "Den Abend spüren,<br /><em>bevor Sie eintreten.</em>", "video.copy": "Warmes Licht, offenes Feuer und ein Tisch, der immer voller wird.", "video.link": "Ihren Abend reservieren", "video.badge": "Echt Mazza<br />Enschede",
     "moments.index": "03 · Die Atmosphäre", "moments.title": "Arabische Wärme.<br /><em>Ein moderner Abend.</em>", "moments.caption1": "Warmes Licht. Langer Abend.", "moments.note": "Die Türen öffnen sich.<br />Der Grill wird heiß.<br />Der Tisch wartet.", "moments.link": "Heute Abend hier?", "moments.caption2": "Zum Teilen gemacht.", "moments.caption3": "Immer frisch auf dem Tisch.",
     "booking.index": "04 · Reservieren", "booking.title": "Ihr Abend.<br /><em>Ihr Tisch.</em>", "booking.copy": "Wählen Sie den Zeitpunkt, sehen Sie sich den Raum an und bestimmen Sie selbst den passenden Platz.", "booking.when": "Wann", "booking.where": "Wo", "booking.who": "Wer", "booking.chooseMoment": "Zeitpunkt wählen", "booking.chooseTable": "Tisch auswählen", "booking.details": "Ihre Angaben", "booking.step1": "Schritt 1 von 3", "booking.step2": "Schritt 2 von 3", "booking.step3": "Schritt 3 von 3", "booking.whenTitle": "Wann dürfen wir Sie begrüßen?", "booking.openInfo": "Täglich von 16:00 bis 22:00 Uhr geöffnet.", "booking.partySize": "Wie viele Personen?", "booking.largeParty": "Mehr als 8? Rufen Sie uns an", "booking.chooseDay": "Tag auswählen", "booking.notChosen": "Noch nicht gewählt", "booking.chooseTime": "Uhrzeit wählen", "booking.early": "Früher Abend", "booking.evening": "Abend", "booking.choice": "Ihre Auswahl", "booking.chooseDateTime": "Datum und Uhrzeit wählen", "booking.viewTables": "Verfügbare Tische ansehen", "booking.whereTitle": "Wo möchten Sie sitzen?", "booking.free": "frei", "booking.best": "beste Wahl", "booking.busy": "belegt", "booking.window": "Fensterseite", "booking.kitchen": "Offene Küche", "booking.entrance": "Eingang", "booking.tapTable": "Tisch auswählen", "booking.tapCopy": "Sehen Sie Platz, Atmosphäre und Anzahl der Sitzplätze.", "booking.back": "Zurück", "booking.selectedPlace": "Ausgewählter Platz", "booking.noTable": "Noch kein Tisch gewählt", "booking.continueTable": "Mit diesem Tisch fortfahren", "booking.whoTitle": "Für wen dürfen wir eindecken?", "booking.demo": "Konzeptdemo", "booking.demoInfo": "Es wird noch nichts wirklich versendet", "booking.confirm": "Demo bestätigen", "booking.guests": "Gäste", "booking.guest": "Gast", "booking.table": "Tisch", "booking.seats": "bequeme Sitzplätze", "booking.selection": "Ihre Auswahl", "booking.yourEvening": "Ihr Abend bei Mazza", "booking.readyTitle": "Alles ist bereit.<br />Nur Sie fehlen noch.", "booking.date": "Datum", "booking.time": "Uhrzeit", "booking.party": "Gesellschaft", "booking.place": "Platz", "booking.summaryDemo": "Konzeptdemo — in der Live-Version geht dies direkt an Mazza.", "booking.chooseAria": "Wählen", "booking.occupiedAria": "Belegt", "booking.places": "Plätze",
@@ -53,6 +55,7 @@ const copy = {
     "video.index": "مَزَّة في حركة", "video.title": "عِش أجواء المساء<br /><em>قبل أن تدخل.</em>", "video.copy": "ضوء دافئ ونار مفتوحة ومائدة تمتلئ طبقاً بعد طبق.", "video.link": "احجز أمسيتك", "video.badge": "مَزَّة الحقيقي<br />إنسخيده",
     "menu.index": "02 · قائمة الطعام", "menu.title": "اختر القليل.<br /><em>وتذوّق الكثير.</em>", "menu.copy": "من الحمص الكريمي إلى نار المشاوي. ابحث وصفِّ الأطباق وابدأ بتكوين مائدتك.", "menu.grillLabel": "من المشاوي", "menu.warmLabel": "مَزَّة ساخنة", "menu.shareLabel": "للمشاركة", "menu.sharePrice": "ابتداءً من 52.95 € للشخص", "menu.sweetLabel": "نهاية حلوة", "menu.browserLabel": "القائمة الكاملة", "menu.browserTitle": "ماذا نضع على المائدة؟", "menu.search": "ابحث عن حمص، دجاج، نباتي…", "menu.vegetarian": "نباتي", "menu.vegan": "نباتي صرف", "menu.empty": "لم نجد شيئاً.", "menu.reset": "عرض الكل", "menu.allergy": "هل لديك حساسية أو نظام غذائي خاص؟ أخبرنا وسنجد لك طبقاً لذيذاً.", "menu.pdf": "القائمة الأصلية", "menu.resultOne": "طبق", "menu.resultMany": "طبقاً",
     "categories.all": "الكل", "categories.koud": "مَزَّة باردة", "categories.warm": "مَزَّة ساخنة", "categories.salade": "سلطات", "categories.grill": "مشاوي", "categories.vis": "سمك", "categories.vega": "نباتي", "categories.dessert": "حلويات",
+    "table.title": "مائدتكم", "table.emptyCompact": "لم تختاروا شيئاً بعد", "table.open": "شاهدوا المائدة", "table.close": "أغلقوا المائدة", "table.eyebrow": "استوديو المائدة المباشر", "table.heading": "كوّنوا<br /><em>مائدتكم المثالية.</em>", "table.clear": "مسح الكل", "table.guests": "الأشخاص", "table.lessGuests": "أشخاص أقل", "table.moreGuests": "أشخاص أكثر", "table.sceneEmpty": "مائدتكم بانتظاركم", "table.sceneSummary": "{count} لـ {guests} أشخاص", "table.emptyTitle": "ابدأوا بطبق واحد.", "table.emptyCopy": "اضغطوا على علامة الجمع بجانب الطبق، وسيظهر فوراً على مائدتكم.", "table.total": "المجموع", "table.perPerson": "لكل شخص", "table.disclaimer": "تقدير للسعر بناءً على اختياركم. لا يتم تقديم طلب شراء الآن.", "table.add": "أضف", "table.onTable": "على المائدة", "table.dishOne": "طبق", "table.dishMany": "أطباق", "table.compact": "{count} · {total}", "table.minusDish": "طبق أقل", "table.plusDish": "طبق إضافي", "table.removeDish": "إزالة الطبق",
     "moments.index": "03 · الأجواء", "moments.title": "دفء عربي.<br /><em>وأمسية عصرية.</em>", "moments.caption1": "ضوء دافئ. أمسية طويلة.", "moments.note": "تُفتح الأبواب.<br />تشتعل المشاوي.<br />وتنتظر المائدة.", "moments.link": "هل نراكم الليلة؟", "moments.caption2": "صُنع للمشاركة.", "moments.caption3": "طازج دائماً على المائدة.",
     "booking.index": "04 · الحجز", "booking.title": "أمسيتك.<br /><em>طاولتك.</em>", "booking.copy": "اختر الموعد، شاهد الصالة وحدد المكان الأنسب لأمسيتك.", "booking.when": "متى", "booking.where": "أين", "booking.who": "مَن", "booking.chooseMoment": "اختر الموعد", "booking.chooseTable": "اختر طاولتك", "booking.details": "بياناتك", "booking.step1": "الخطوة 1 من 3", "booking.step2": "الخطوة 2 من 3", "booking.step3": "الخطوة 3 من 3", "booking.whenTitle": "متى ستنضمون إلينا؟", "booking.openInfo": "مفتوح يومياً من 16:00 حتى 22:00.", "booking.partySize": "كم عدد الضيوف؟", "booking.largeParty": "أكثر من 8؟ اتصل بنا", "booking.chooseDay": "اختر يوماً", "booking.notChosen": "لم يتم الاختيار", "booking.chooseTime": "اختر الوقت", "booking.early": "عشاء مبكر", "booking.evening": "المساء", "booking.choice": "اختيارك", "booking.chooseDateTime": "اختر التاريخ والوقت", "booking.viewTables": "عرض الطاولات المتاحة", "booking.whereTitle": "أين تحبون الجلوس؟", "booking.free": "متاحة", "booking.best": "الخيار الأفضل", "booking.busy": "محجوزة", "booking.window": "جانب النافذة", "booking.kitchen": "المطبخ المفتوح", "booking.entrance": "المدخل", "booking.tapTable": "اختر طاولة", "booking.tapCopy": "شاهد موقعها وأجواءها وعدد المقاعد.", "booking.back": "رجوع", "booking.selectedPlace": "المكان المختار", "booking.noTable": "لم تختر طاولة بعد", "booking.continueTable": "المتابعة بهذه الطاولة", "booking.whoTitle": "لمن نجهّز المائدة؟", "booking.demo": "نسخة تجريبية", "booking.demoInfo": "لن يتم إرسال أي طلب فعلي بعد", "booking.confirm": "تأكيد التجربة", "booking.guests": "ضيوف", "booking.guest": "ضيف", "booking.table": "الطاولة", "booking.seats": "مقاعد مريحة", "booking.selection": "اختيارك", "booking.yourEvening": "أمسيتك في مَزَّة", "booking.readyTitle": "كل شيء جاهز.<br />لم يبقَ إلا حضوركم.", "booking.date": "التاريخ", "booking.time": "الوقت", "booking.party": "عدد الضيوف", "booking.place": "المكان", "booking.summaryDemo": "نسخة تجريبية — في النسخة الفعلية يصل الحجز مباشرة إلى مَزَّة.", "booking.chooseAria": "اختر", "booking.occupiedAria": "محجوزة", "booking.places": "مقاعد",
     "table.area.window": "جانب النافذة", "table.area.middle": "الوسط", "table.area.kitchen": "جانب المطبخ", "table.area.corner": "زاوية هادئة", "table.area.back": "القسم الخلفي", "table.mood.quiet": "هادئ ومضيء", "table.mood.lively": "نابض بالحياة", "table.mood.chef": "إطلالة على الشيف", "table.mood.intimate": "حميمي", "table.mood.spacious": "واسع ومضيء", "table.mood.share": "مثالي للمشاركة", "table.mood.cosy": "مريح", "table.note.window": "مباشرة عند النافذة", "table.note.centre": "في قلب الأجواء", "table.note.kitchen": "إطلالة على المطبخ المفتوح", "table.note.two": "مكان لشخصين", "table.note.street": "على شارع فالسترات", "table.note.group": "مثالي للمجموعات", "table.note.nearKitchen": "قريب من المطبخ",
@@ -125,6 +128,8 @@ const menuItems = [
   m("dessert", "Mazza Dessert Mix", 32.95, "Vier desserts op een schaal voor twee personen.", "Vier Desserts auf einer Platte für zwei Personen.", "أربعة أنواع من الحلويات على طبق لشخصين.", ["veg"])
 ];
 
+menuItems.forEach((item, index) => { item.id = `dish-${index + 1}`; });
+
 let currentLang = ["nl", "de", "ar"].includes(localStorage.getItem("mazza-language")) ? localStorage.getItem("mazza-language") : "nl";
 let activeCategory = "all";
 const t = (key) => copy[currentLang][key] ?? copy.nl[key] ?? key;
@@ -134,6 +139,23 @@ const menuSearch = document.querySelector("[data-menu-search]");
 const menuMeta = document.querySelector("[data-menu-result-meta]");
 const menuEmpty = document.querySelector("[data-menu-empty]");
 const menuFilters = [...document.querySelectorAll("[data-category]")];
+const tableComposer = document.querySelector("[data-table-composer]");
+const tableComposerToggle = document.querySelector("[data-table-composer-toggle]");
+const tableComposerToggleLabel = document.querySelector("[data-table-toggle-label]");
+const tableCompact = document.querySelector("[data-table-compact]");
+const tableGuestsLabel = document.querySelector("[data-table-guests]");
+const tableGuestsMinus = document.querySelector("[data-table-guests-minus]");
+const tableGuestsPlus = document.querySelector("[data-table-guests-plus]");
+const tableChairs = document.querySelector("[data-table-chairs]");
+const tableDishes = document.querySelector("[data-table-dishes]");
+const tableSceneSummary = document.querySelector("[data-table-scene-summary]");
+const tableEmptyState = document.querySelector("[data-table-empty]");
+const tableOrderList = document.querySelector("[data-table-order-list]");
+const tableTotal = document.querySelector("[data-table-total]");
+const tablePerPerson = document.querySelector("[data-table-per-person]");
+const tableClear = document.querySelector("[data-table-clear]");
+const tableSelection = new Map();
+let tableGuests = 2;
 
 function formatPrice(price) {
   return new Intl.NumberFormat(localeCodes[currentLang], { style: "currency", currency: "EUR" }).format(price);
@@ -150,10 +172,96 @@ function renderMenu() {
     const categoryMatch = activeCategory === "all" || item.category === activeCategory;
     return categoryMatch && `${item.name} ${item.descriptions[currentLang]}`.toLocaleLowerCase(localeCodes[currentLang]).includes(query);
   });
-  menuGrid.innerHTML = filtered.map((item, index) => `<article class="menu-item${item.image ? " has-photo" : ""}" style="animation-delay:${Math.min(index, 8) * 25}ms">${item.image ? `<img class="menu-item-thumb" src="${item.image}" alt="${item.name}" loading="lazy" />` : ""}<div><div class="menu-item-title-row"><h3>${item.name}</h3>${dietBadges(item.diet)}</div><p>${item.descriptions[currentLang]}</p></div><span class="menu-price">${formatPrice(item.price)}</span></article>`).join("");
+  menuGrid.innerHTML = filtered.map((item, index) => {
+    const quantity = tableSelection.get(item.id) || 0;
+    return `<article class="menu-item${item.image ? " has-photo" : ""}" style="animation-delay:${Math.min(index, 8) * 25}ms">${item.image ? `<img class="menu-item-thumb" src="${item.image}" alt="${item.name}" loading="lazy" />` : ""}<div><div class="menu-item-title-row"><h3>${item.name}</h3>${dietBadges(item.diet)}</div><p>${item.descriptions[currentLang]}</p></div><div class="menu-item-action"><span class="menu-price">${formatPrice(item.price)}</span><button class="menu-add-button${quantity ? " active" : ""}" type="button" data-table-add="${item.id}" aria-label="${t("table.add")} ${item.name}"><span>${quantity || "+"}</span><small>${quantity ? t("table.onTable") : t("table.add")}</small></button></div></article>`;
+  }).join("");
   menuMeta.textContent = `${filtered.length} ${filtered.length === 1 ? t("menu.resultOne") : t("menu.resultMany")}`;
   menuEmpty.hidden = filtered.length !== 0;
 }
+
+function selectedTableItems() {
+  return menuItems.filter((item) => tableSelection.has(item.id)).map((item) => ({ item, quantity: tableSelection.get(item.id) }));
+}
+
+function tableDishInitials(name) {
+  return name.split(/\s+/).slice(0, 2).map((part) => part[0]).join("").toLocaleUpperCase(localeCodes[currentLang]);
+}
+
+function renderTableChairs() {
+  if (!tableChairs) return;
+  tableChairs.innerHTML = Array.from({ length: tableGuests }, (_, index) => {
+    const angle = -90 + (360 / tableGuests) * index;
+    const radians = angle * Math.PI / 180;
+    const x = 50 + Math.cos(radians) * 43;
+    const y = 50 + Math.sin(radians) * 39;
+    return `<i class="table-scene-chair" style="left:${x}%;top:${y}%;transform:translate(-50%,-50%) rotate(${angle + 90}deg)"></i>`;
+  }).join("");
+}
+
+function renderTableComposer() {
+  if (!tableComposer) return;
+  const selected = selectedTableItems();
+  const itemCount = selected.reduce((sum, entry) => sum + entry.quantity, 0);
+  const total = selected.reduce((sum, entry) => sum + entry.item.price * entry.quantity, 0);
+  const dishWord = itemCount === 1 ? t("table.dishOne") : t("table.dishMany");
+  const countLabel = `${itemCount} ${dishWord}`;
+  tableGuestsLabel.textContent = String(tableGuests);
+  tableTotal.textContent = formatPrice(total);
+  tablePerPerson.textContent = formatPrice(total / tableGuests);
+  tableClear.disabled = itemCount === 0;
+  tableEmptyState.hidden = itemCount !== 0;
+  tableOrderList.hidden = itemCount === 0;
+  tableCompact.textContent = itemCount === 0 ? t("table.emptyCompact") : t("table.compact").replace("{count}", countLabel).replace("{total}", formatPrice(total));
+  tableSceneSummary.textContent = itemCount === 0 ? t("table.sceneEmpty") : t("table.sceneSummary").replace("{count}", countLabel).replace("{guests}", tableGuests);
+  tableOrderList.innerHTML = selected.map(({ item, quantity }) => `<div class="table-order-row"><div><strong>${item.name}</strong><span>${formatPrice(item.price)} × ${quantity}</span></div><div class="table-quantity"><button type="button" data-table-decrease="${item.id}" aria-label="${t("table.minusDish")}: ${item.name}">−</button><b>${quantity}</b><button type="button" data-table-increase="${item.id}" aria-label="${t("table.plusDish")}: ${item.name}">+</button></div></div>`).join("");
+  const positions = [[31,35],[69,35],[24,67],[50,68],[76,67],[50,24]];
+  tableDishes.innerHTML = selected.slice(0, positions.length).map(({ item, quantity }, index) => {
+    const [x, y] = positions[index];
+    const visual = item.image ? `<img src="${item.image}" alt="" />` : `<span>${tableDishInitials(item.name)}</span>`;
+    return `<div class="table-dish-token category-${item.category}" style="left:${x}%;top:${y}%" title="${item.name}">${visual}<b>×${quantity}</b></div>`;
+  }).join("");
+  renderTableChairs();
+}
+
+function pulseTableComposer() {
+  if (!tableComposer) return;
+  tableComposer.classList.remove("receiving");
+  requestAnimationFrame(() => tableComposer.classList.add("receiving"));
+  window.setTimeout(() => tableComposer.classList.remove("receiving"), 650);
+}
+
+function changeTableDish(id, delta) {
+  const current = tableSelection.get(id) || 0;
+  const next = Math.max(0, Math.min(20, current + delta));
+  if (next === 0) tableSelection.delete(id); else tableSelection.set(id, next);
+  renderMenu();
+  renderTableComposer();
+  if (delta > 0) pulseTableComposer();
+}
+
+function updateTableComposerToggle() {
+  if (!tableComposerToggle || !tableComposerToggleLabel) return;
+  const open = tableComposer.classList.contains("open");
+  tableComposerToggle.setAttribute("aria-expanded", String(open));
+  tableComposerToggleLabel.dataset.i18n = open ? "table.close" : "table.open";
+  tableComposerToggleLabel.textContent = t(open ? "table.close" : "table.open");
+}
+
+menuGrid?.addEventListener("click", (event) => {
+  const button = event.target.closest("[data-table-add]");
+  if (button) changeTableDish(button.dataset.tableAdd, 1);
+});
+tableOrderList?.addEventListener("click", (event) => {
+  const decrease = event.target.closest("[data-table-decrease]");
+  const increase = event.target.closest("[data-table-increase]");
+  if (decrease) changeTableDish(decrease.dataset.tableDecrease, -1);
+  if (increase) changeTableDish(increase.dataset.tableIncrease, 1);
+});
+tableGuestsMinus?.addEventListener("click", () => { tableGuests = Math.max(1, tableGuests - 1); renderTableComposer(); });
+tableGuestsPlus?.addEventListener("click", () => { tableGuests = Math.min(10, tableGuests + 1); renderTableComposer(); });
+tableClear?.addEventListener("click", () => { tableSelection.clear(); renderMenu(); renderTableComposer(); });
+tableComposerToggle?.addEventListener("click", () => { tableComposer.classList.toggle("open"); updateTableComposerToggle(); });
 
 menuFilters.forEach((button) => button.addEventListener("click", () => {
   activeCategory = button.dataset.category;
@@ -429,6 +537,8 @@ function translatePage(lang, persist = true) {
   document.querySelectorAll("[data-lang]").forEach((button) => { button.classList.toggle("active", button.dataset.lang === lang); button.setAttribute("aria-pressed", String(button.dataset.lang === lang)); });
   if (persist) localStorage.setItem("mazza-language", lang);
   renderMenu();
+  renderTableComposer();
+  updateTableComposerToggle();
   if (bookingForm) {
     renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState();
     if (bookingState.tableId) selectTable(bookingState.tableId); else {

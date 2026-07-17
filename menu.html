@@ -6,7 +6,7 @@
     <meta name="theme-color" content="#07060b" />
     <meta name="description" content="Ontdek de volledige menukaart van Restaurant Mazza in Enschede: koude en warme mazza, grill, vis en desserts." />
     <title>Menukaart | Mazza Enschede</title>
-    <link rel="stylesheet" href="/styles.css?v=14" />
+    <link rel="stylesheet" href="/styles.css?v=15" />
   </head>
   <body data-page="menu">
     <svg class="svg-sprite" aria-hidden="true">
@@ -39,6 +39,8 @@
 
         <div class="menu-browser reveal" id="volledige-kaart">
           <div class="menu-browser-head"><div><span data-i18n="menu.browserLabel">De hele kaart</span><strong data-i18n="menu.browserTitle">Wat mag er op tafel?</strong></div><label class="menu-search"><svg><use href="#i-search" /></svg><input type="search" data-menu-search data-i18n-placeholder="menu.search" placeholder="Zoek hummus, kip, vegan…" /></label></div>
+          <div class="menu-studio-layout">
+            <div class="menu-catalog">
           <div class="menu-tabs" role="group" aria-label="Menu category">
             <button class="menu-filter active" type="button" data-category="all"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1" /><rect x="14" y="4" width="6" height="6" rx="1" /><rect x="4" y="14" width="6" height="6" rx="1" /><rect x="14" y="14" width="6" height="6" rx="1" /></svg><span data-i18n="categories.all">Alles</span><small>52</small></button>
             <button class="menu-filter" type="button" data-category="koud"><svg class="menu-filter-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v18M4.2 7.5l15.6 9M4.2 16.5l15.6-9M9 5l3 2 3-2M9 19l3-2 3 2" /></svg><span data-i18n="categories.koud">Koude mazza</span><small>12</small></button>
@@ -53,6 +55,24 @@
           <div class="menu-grid" data-menu-grid></div>
           <div class="menu-empty" data-menu-empty hidden><strong data-i18n="menu.empty">Niets gevonden.</strong><button type="button" data-reset-menu data-i18n="menu.reset">Bekijk alles</button></div>
           <div class="menu-browser-footer"><p data-i18n="menu.allergy">Allergie of dieetwens? Vertel het ons — bijna altijd kunnen we iets lekkers maken.</p><a href="/assets/menu.pdf" target="_blank" rel="noopener"><span data-i18n="menu.pdf">Originele menukaart</span><svg><use href="#i-arrow" /></svg></a></div>
+            </div>
+
+            <aside class="table-composer" data-table-composer>
+              <button class="table-composer-toggle" type="button" data-table-composer-toggle aria-expanded="false">
+                <span><small data-i18n="table.title">Jouw tafel</small><strong data-table-compact data-i18n="table.emptyCompact">Nog niets gekozen</strong></span>
+                <b><span data-table-toggle-label data-i18n="table.open">Bekijk tafel</span><svg><use href="#i-arrow" /></svg></b>
+              </button>
+              <div class="table-composer-body">
+                <div class="table-composer-head"><div><span data-i18n="table.eyebrow">Live tafelstudio</span><h3 data-i18n-html="table.heading">Bouw jullie<br /><em>ideale tafel.</em></h3></div><button type="button" data-table-clear disabled data-i18n="table.clear">Wis alles</button></div>
+                <div class="table-guest-control"><button type="button" data-table-guests-minus aria-label="Minder personen" data-i18n-aria="table.lessGuests">−</button><div><span data-i18n="table.guests">Personen</span><strong data-table-guests>2</strong></div><button type="button" data-table-guests-plus aria-label="Meer personen" data-i18n-aria="table.moreGuests">+</button></div>
+                <div class="table-scene" aria-live="polite"><div class="table-scene-glow" aria-hidden="true"></div><div class="table-chairs" data-table-chairs aria-hidden="true"></div><div class="table-surface"><span lang="ar" dir="rtl" translate="no">مَزَّة</span><small data-table-scene-summary data-i18n="table.sceneEmpty">Jullie tafel wacht</small></div><div class="table-dishes" data-table-dishes aria-hidden="true"></div></div>
+                <div class="table-empty-state" data-table-empty><svg><use href="#i-spark" /></svg><strong data-i18n="table.emptyTitle">Begin met één gerecht.</strong><p data-i18n="table.emptyCopy">Tik op de plus bij de menukaart. Elk bord verschijnt meteen op jullie tafel.</p></div>
+                <div class="table-order-list" data-table-order-list hidden></div>
+                <div class="table-total"><div><span data-i18n="table.total">Totaal</span><strong data-table-total>€ 0,00</strong></div><div class="table-per-person"><span data-i18n="table.perPerson">Per persoon</span><strong data-table-per-person>€ 0,00</strong></div></div>
+                <p class="table-disclaimer" data-i18n="table.disclaimer">Prijsindicatie op basis van jullie selectie. Je plaatst nog geen bestelling.</p>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
 
@@ -60,6 +80,6 @@
     </main>
 
     <footer class="site-footer" id="footer"><div class="footer-top"><img src="/assets/mazza-logo.svg" alt="Mazza" /><p data-i18n-html="footer.tagline">Libanese smaken.<br />Eindeloze gastvrijheid.</p><div class="footer-origin"><span class="footer-arabic" lang="ar" dir="rtl" translate="no">مَزَّة</span><span class="footer-flags" aria-label="Libanon en Nederland"><img src="/assets/flag-lebanon.svg" alt="Libanon" /><i></i><img src="/assets/flag-netherlands.svg" alt="Nederland" /></span></div></div><div class="footer-word" aria-label="Mazza" translate="no"><span>M</span><span>A</span><span>Z</span><span>Z</span><span>A</span></div><div class="footer-legal"><div><span data-i18n="footer.company">Restaurant Mazza B.V.</span><strong>Walstraat 1 · 7511 GE Enschede</strong></div><div><span data-i18n="footer.registration">Bedrijfsregistratie</span><strong>KvK 93190018</strong></div><nav aria-label="Juridische informatie"><a href="/privacy" data-i18n="footer.legal">Bedrijfsgegevens & privacy</a><a href="/privacy#cookies" data-i18n="footer.cookies">Cookies</a></nav></div><div class="footer-row"><div><span data-i18n="footer.follow">Volg ons</span><a href="https://www.instagram.com/restaurantmazza/" target="_blank" rel="noopener">Instagram ↗</a></div><div><span data-i18n="footer.call">Direct reserveren</span><a href="tel:0537504170">053 · 750 41 70</a></div><div><span>© <span data-year></span> Mazza Enschede</span><small data-i18n="footer.concept">Interactieve conceptwebsite</small></div></div></footer>
-    <script src="/app.js?v=10"></script>
+    <script src="/app.js?v=11"></script>
   </body>
 </html>
