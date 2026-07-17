@@ -303,7 +303,40 @@ const revealObserver = new IntersectionObserver((entries, observer) => {
     }
   });
 }, { threshold: 0.1, rootMargin: "0px 0px -25px" });
-document.querySelectorAll(".reveal").forEach((element) => revealObserver.observe(element));
+const revealElements = [...document.querySelectorAll(".reveal")];
+revealElements.forEach((element) => revealObserver.observe(element));
+
+function revealVisibleElements() {
+  revealElements.forEach((element) => {
+    if (element.classList.contains("visible")) return;
+    const rect = element.getBoundingClientRect();
+    if (rect.top <= window.innerHeight + 80 && rect.bottom >= -80) {
+      element.classList.add("visible");
+      revealObserver.unobserve(element);
+    }
+  });
+}
+
+function alignHashTarget() {
+  if (!window.location.hash) return;
+  const target = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+  if (!target) return;
+  target.classList.add("visible");
+  target.scrollIntoView({ block: "start" });
+  revealVisibleElements();
+}
+
+revealVisibleElements();
+alignHashTarget();
+requestAnimationFrame(() => {
+  revealVisibleElements();
+  alignHashTarget();
+});
+window.addEventListener("load", () => {
+  revealVisibleElements();
+  alignHashTarget();
+}, { once: true });
+window.addEventListener("hashchange", alignHashTarget);
 document.querySelectorAll("[data-year]").forEach((element) => { element.textContent = new Date().getFullYear(); });
 
 const bookingState = { step: 1, guests: 2, selectedDate: null, time: null, tableId: null, viewDate: null, firstName: "" };

@@ -35,16 +35,28 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .site-header.scrolled { top: 10px; background: rgba(7, 6, 11, .92); border-color: rgba(247, 211, 166, .25); }
 .brand { position: relative; display: block; width: 116px; isolation: isolate; }
 .brand img { height: 51px; object-fit: contain; filter: brightness(0) invert(1); }
+.brand::before,
 .brand::after {
   position: absolute;
-  z-index: 1;
   inset: 0;
   content: "";
   pointer-events: none;
+}
+.brand::before {
+  z-index: 1;
   background: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
-  clip-path: inset(100% 0 0 0);
-  animation: mazzaMFill 10s cubic-bezier(.45, 0, .2, 1) infinite;
-  will-change: clip-path, opacity;
+  clip-path: inset(0 100% 0 0);
+  animation: mazzaMSignature 8.8s cubic-bezier(.65, 0, .18, 1) infinite;
+  will-change: clip-path, opacity, filter;
+}
+.brand::after {
+  z-index: 2;
+  opacity: 0;
+  background: linear-gradient(105deg, transparent 20%, rgba(255,255,255,.92) 46%, #f7d3a6 54%, transparent 80%) -65% 0 / 38% 100% no-repeat;
+  -webkit-mask: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
+  mask: url("/assets/mazza-m-mark.svg") center / contain no-repeat;
+  animation: mazzaMSheen 8.8s cubic-bezier(.4, 0, .2, 1) infinite;
+  will-change: background-position, opacity;
 }
 .desktop-nav { display: flex; justify-content: center; gap: clamp(20px, 3vw, 48px); }
 .desktop-nav a { position: relative; padding: 10px 0; color: rgba(255, 253, 248, .72); font-size: 13px; }
@@ -189,7 +201,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .dish-card span { color: var(--peach); font-size: 8px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
 .dish-card h3 { margin: 8px 0 12px; color: var(--white); font-family: var(--display); font-size: clamp(28px, 3vw, 47px); font-weight: 400; line-height: .95; }
 .dish-card strong { color: rgba(255,255,255,.65); font-size: 11px; font-weight: 500; }
-.menu-browser { width: min(1400px, 100%); padding: 38px 42px 28px; margin: 0 auto; color: var(--peach-soft); background: var(--ink); }
+.menu-browser { width: min(1400px, 100%); padding: 38px 42px 28px; margin: 0 auto; scroll-margin-top: 108px; color: var(--peach-soft); background: var(--ink); }
 .menu-browser-head { display: flex; padding-bottom: 28px; align-items: flex-end; justify-content: space-between; gap: 30px; border-bottom: 1px solid var(--line-dark); }
 .menu-browser-head > div span { display: block; margin-bottom: 5px; color: var(--gold); font-size: 8px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; }
 .menu-browser-head > div strong { font-family: var(--display); font-size: 30px; font-weight: 400; }
@@ -706,10 +718,18 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 @keyframes plateIn { from { opacity: 0; transform: translate(-50%,-50%) scale(.45) rotate(-16deg); } to { opacity: 1; transform: translate(-50%,-50%) scale(1) rotate(0); } }
 @keyframes tableReceive { 50% { transform: translate(-50%,-50%) scale(1.035); border-color: rgba(196,72,50,.75); box-shadow: inset 0 0 0 8px rgba(247,211,166,.04), 0 0 0 12px rgba(155,50,32,.08), 0 26px 48px rgba(0,0,0,.46); } }
 @keyframes orderRowIn { from { opacity: 0; transform: translateX(10px); } }
-@keyframes mazzaMFill {
-  0%, 12% { opacity: 1; clip-path: inset(100% 0 0 0); }
-  67%, 82% { opacity: 1; clip-path: inset(0 0 0 0); }
-  92%, 100% { opacity: 0; clip-path: inset(0 0 0 0); }
+@keyframes mazzaMSignature {
+  0%, 8% { opacity: 0; clip-path: inset(0 100% 0 0); filter: drop-shadow(0 0 0 rgba(155,50,32,0)); }
+  11% { opacity: 1; }
+  42%, 79% { opacity: 1; clip-path: inset(0 0 0 0); filter: drop-shadow(0 0 5px rgba(155,50,32,.28)); }
+  88%, 100% { opacity: 0; clip-path: inset(0 0 0 0); filter: drop-shadow(0 0 0 rgba(155,50,32,0)); }
+}
+@keyframes mazzaMSheen {
+  0%, 42% { opacity: 0; background-position: -65% 0; }
+  46% { opacity: .15; }
+  57% { opacity: .95; }
+  66% { opacity: 0; background-position: 165% 0; }
+  100% { opacity: 0; background-position: 165% 0; }
 }
 
 @media (max-width: 1180px) {
