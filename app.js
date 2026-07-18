@@ -1,4 +1,7 @@
 const localeCodes = { nl: "nl-NL", de: "de-DE", ar: "ar-LB" };
+const normalizedPath = window.location.pathname.replace(/\/+$/, "") || "/";
+const knownPaths = new Set(["/", "/index.html", "/menu", "/menu.html", "/reserveren", "/reserveren.html", "/over-ons", "/over-ons.html", "/privacy", "/privacy.html", "/404.html"]);
+if (!knownPaths.has(normalizedPath)) window.location.replace("/404.html");
 
 const copy = {
   nl: {
