@@ -2,9 +2,9 @@ const localeCodes = { nl: "nl-NL", de: "de-DE", ar: "ar-LB" };
 
 const copy = {
   nl: {
-    "nav.story": "Ons verhaal", "nav.menu": "Menukaart", "nav.atmosphere": "Sfeer", "nav.visit": "Bezoek ons", "nav.book": "Reserveer", "nav.openMenu": "Menu openen", "brand.cuisine": "Libanese keuken",
+    "nav.story": "Ons verhaal", "nav.menu": "Menukaart", "nav.atmosphere": "Sfeer", "nav.visit": "Bezoek ons", "nav.book": "Reserveer", "nav.openMenu": "Menu openen", "nav.closeMenu": "Menu sluiten", "a11y.skip": "Ga naar de inhoud", "menu.searchLabel": "Doorzoek de menukaart", "calendar.previous": "Vorige maand", "calendar.next": "Volgende maand", "brand.cuisine": "Libanese keuken",
     "mobile.intro": "Ontdek Mazza", "common.daily": "Elke dag open", "social.live": "Live cooking · Instagram", "social.kebab": "Kebab · kersensaus", "social.official": "Officieel Mazza ↗",
-    "hero.eyebrow": "Libanese keuken · Enschede", "hero.title": "Enschede proeft.<br /><em>Libanon leeft.</em>", "hero.ritual": "Libanon · Enschede · Mazza", "hero.copy": "Libanese gastvrijheid, open vuur en gerechten die pas compleet zijn als iedereen mee-eet.", "hero.book": "Kies je tafel", "hero.menu": "Ontdek het menu", "hero.tonight": "Vanavond bij Mazza", "hero.available": "Er zijn nog tafels beschikbaar.", "hero.choose": "Kies zelf waar je wilt zitten.", "hero.start": "Start reservering", "hero.locationLabel": "Midden in Enschede", "hero.hoursLabel": "Zeven dagen per week", "hero.arabicLabel": "Proeven · delen · blijven",
+    "hero.eyebrow": "Libanese keuken · Enschede", "hero.title": "Enschede proeft.<br /><em>Libanon leeft.</em>", "hero.ritual": "Libanon · Enschede · Mazza", "hero.copy": "Libanese gastvrijheid, open vuur en gerechten die pas compleet zijn als iedereen mee-eet.", "hero.book": "Kies je tafel", "hero.menu": "Ontdek het menu", "hero.tonight": "Vanavond bij Mazza", "hero.available": "Ontdek jouw tafel voor vanavond.", "hero.choose": "Kies zelf waar je wilt zitten.", "hero.start": "Start reservering", "hero.locationLabel": "Midden in Enschede", "hero.hoursLabel": "Zeven dagen per week", "hero.arabicLabel": "Proeven · delen · blijven",
     "story.index": "01 · Het verhaal", "story.title": "Eén tafel.<br /><em>Niemand eet alleen.</em>", "story.photoCaption": "Een warme wereld in hartje Enschede.", "story.lead": "Mazza betekent blijven proeven, delen en praten. Het Arabische antwoord op tapas, met de gastvrijheid van thuis.", "story.body": "Koude en warme mazza, geurende kruiden en gerechten van de grill komen midden op tafel. Niemand bestelt alleen voor zichzelf.", "story.link": "Bekijk wat er op tafel komt", "story.quote": "“De tafel is pas compleet als iedereen mee-eet.”", "story.quoteBy": "— Onze favoriete huisregel",
     "menu.index": "02 · De menukaart", "menu.title": "Kies klein.<br /><em>Proef groots.</em>", "menu.copy": "Van romige hummus tot vuur van de grill. Zoek, filter en stel in gedachten je tafel alvast samen.", "menu.grillLabel": "Van de grill", "menu.warmLabel": "Warme mazza", "menu.shareLabel": "Om te delen", "menu.sharePrice": "vanaf € 52,95 p.p.", "menu.sweetLabel": "Zoete finale", "menu.browserLabel": "De hele kaart", "menu.browserTitle": "Wat mag er op tafel?", "menu.search": "Zoek hummus, kip, vegan…", "menu.vegetarian": "vegetarisch", "menu.vegan": "vegan", "menu.empty": "Niets gevonden.", "menu.reset": "Bekijk alles", "menu.allergy": "Allergie of dieetwens? Vertel het ons — bijna altijd kunnen we iets lekkers maken.", "menu.pdf": "Originele menukaart", "menu.resultOne": "gerecht", "menu.resultMany": "gerechten",
     "categories.all": "Alles", "categories.koud": "Koude mazza", "categories.warm": "Warme mazza", "categories.salade": "Salades", "categories.grill": "Grill", "categories.vis": "Vis", "categories.vega": "Vegetarisch", "categories.dessert": "Dessert",
@@ -21,13 +21,13 @@ const copy = {
     "legal.companyLabel": "Bedrijfsgegevens", "legal.companyTitle": "Restaurant Mazza B.V.", "legal.addressLabel": "Vestigingsadres", "legal.registrationLabel": "Handelsregister", "legal.contactLabel": "Contact", "legal.reachLabel": "Bereikbaar", "legal.reachValue": "Elke dag<br />16:00 — 22:00",
     "legal.privacyLabel": "Privacy", "legal.privacyTitle": "Jouw gegevens, met aandacht behandeld.", "legal.privacyBody1": "Restaurant Mazza B.V. is verantwoordelijk voor persoonsgegevens die via telefoon of e-mail worden ontvangen. Dit kan gaan om je naam, contactgegevens, reserveringsdetails en wensen die je zelf doorgeeft. We gebruiken die gegevens alleen voor contact en het behandelen van je reservering, en bewaren ze niet langer dan nodig of wettelijk verplicht.", "legal.privacyBody2": "Gegevens worden alleen gedeeld met dienstverleners die nodig zijn voor de reservering of wanneer de wet dat verplicht. Zodra een externe reserveringsdienst wordt aangesloten, wordt deze informatie vóór ingebruikname aangevuld met de betreffende verwerker en bewaartermijnen.", "legal.rightsTitle": "Jouw privacyrechten", "legal.rightsBody": "Je kunt vragen om inzage, correctie, verwijdering, beperking, overdracht of bezwaar. Stuur je verzoek naar info@restaurantmazza.nl. Je ontvangt in beginsel binnen één maand een reactie en kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens.", "legal.apLink": "Autoriteit Persoonsgegevens",
     "legal.cookiesLabel": "Cookies & lokale opslag", "legal.cookiesTitle": "Geen tracking. Geen verborgen profiel.", "legal.cookiesBody1": "Deze versie gebruikt geen advertentie-, marketing- of trackingcookies. Je taalkeuze wordt alleen lokaal in je browser opgeslagen, zodat de website bij je volgende bezoek dezelfde taal kan tonen. Deze voorkeur verlaat je apparaat niet.", "legal.cookiesBody2": "Als later analyse- of marketingtechniek wordt toegevoegd waarvoor toestemming nodig is, wordt die pas actief nadat je een vrije keuze hebt gemaakt en wordt deze verklaring eerst bijgewerkt.", "legal.cookiesStatus": "Huidige status: alleen een lokale taalvoorkeur, geen tracking.",
-    "legal.conceptLabel": "Huidige conceptversie", "legal.conceptTitle": "De reservering is nu een interactieve demo.", "legal.conceptBody": "Ingevulde reserveringsgegevens worden in deze conceptversie niet naar Mazza of een externe partij verzonden en niet blijvend opgeslagen. De getoonde bevestiging is uitsluitend een demonstratie en geldt niet als echte reservering.", "legal.conceptNext": "Voor een echte reservering kun je Mazza momenteel rechtstreeks bellen of e-mailen.", "legal.updated": "Laatst bijgewerkt: 17 juli 2026",
+    "legal.conceptLabel": "Huidige conceptversie", "legal.conceptTitle": "De reservering is nu een interactieve demo.", "legal.conceptBody": "Ingevulde reserveringsgegevens worden in deze conceptversie niet naar Mazza of een externe partij verzonden en niet blijvend opgeslagen. De getoonde bevestiging is uitsluitend een demonstratie en geldt niet als echte reservering.", "legal.conceptNext": "Voor een echte reservering kun je Mazza momenteel rechtstreeks bellen of e-mailen.", "legal.updated": "Laatst bijgewerkt: 18 juli 2026",
     weekdays: ["Ma", "Di", "Wo", "Do", "Vr", "Za", "Zo"]
   },
   de: {
-    "nav.story": "Unsere Geschichte", "nav.menu": "Speisekarte", "nav.atmosphere": "Atmosphäre", "nav.visit": "Besuchen", "nav.book": "Reservieren", "nav.openMenu": "Menü öffnen", "brand.cuisine": "Libanesische Küche",
+    "nav.story": "Unsere Geschichte", "nav.menu": "Speisekarte", "nav.atmosphere": "Atmosphäre", "nav.visit": "Besuchen", "nav.book": "Reservieren", "nav.openMenu": "Menü öffnen", "nav.closeMenu": "Menü schließen", "a11y.skip": "Zum Inhalt springen", "menu.searchLabel": "Speisekarte durchsuchen", "calendar.previous": "Vorheriger Monat", "calendar.next": "Nächster Monat", "brand.cuisine": "Libanesische Küche",
     "mobile.intro": "Mazza entdecken", "common.daily": "Täglich geöffnet", "social.live": "Live-Cooking · Instagram", "social.kebab": "Kebab · Sauerkirsche", "social.official": "Offiziell Mazza ↗",
-    "hero.eyebrow": "Libanesische Küche · Enschede", "hero.title": "Enschede schmeckt.<br /><em>Libanon lebt.</em>", "hero.ritual": "Libanon · Enschede · Mazza", "hero.copy": "Libanesische Gastfreundschaft, offenes Feuer und Gerichte, die erst vollständig sind, wenn alle mitessen.", "hero.book": "Tisch auswählen", "hero.menu": "Speisekarte entdecken", "hero.tonight": "Heute Abend bei Mazza", "hero.available": "Es sind noch Tische verfügbar.", "hero.choose": "Wählen Sie selbst Ihren Lieblingsplatz.", "hero.start": "Reservierung starten", "hero.locationLabel": "Mitten in Enschede", "hero.hoursLabel": "Sieben Tage die Woche", "hero.arabicLabel": "Probieren · teilen · bleiben",
+    "hero.eyebrow": "Libanesische Küche · Enschede", "hero.title": "Enschede schmeckt.<br /><em>Libanon lebt.</em>", "hero.ritual": "Libanon · Enschede · Mazza", "hero.copy": "Libanesische Gastfreundschaft, offenes Feuer und Gerichte, die erst vollständig sind, wenn alle mitessen.", "hero.book": "Tisch auswählen", "hero.menu": "Speisekarte entdecken", "hero.tonight": "Heute Abend bei Mazza", "hero.available": "Entdecken Sie Ihren Tisch für heute Abend.", "hero.choose": "Wählen Sie selbst Ihren Lieblingsplatz.", "hero.start": "Reservierung starten", "hero.locationLabel": "Mitten in Enschede", "hero.hoursLabel": "Sieben Tage die Woche", "hero.arabicLabel": "Probieren · teilen · bleiben",
     "story.index": "01 · Die Geschichte", "story.title": "Ein Tisch.<br /><em>Niemand isst allein.</em>", "story.photoCaption": "Eine warme Welt mitten in Enschede.", "story.lead": "Mazza bedeutet weiterprobieren, teilen und reden. Die arabische Antwort auf Tapas — mit der Gastfreundschaft von zu Hause.", "story.body": "Kalte und warme Mazza, duftende Gewürze und Gerichte vom Grill kommen in die Mitte des Tisches. Niemand bestellt nur für sich.", "story.link": "Entdecken, was auf den Tisch kommt", "story.quote": "„Der Tisch ist erst vollständig, wenn alle mitessen.“", "story.quoteBy": "— Unsere liebste Hausregel",
     "menu.index": "02 · Die Speisekarte", "menu.title": "Klein wählen.<br /><em>Groß genießen.</em>", "menu.copy": "Von cremigem Hummus bis zum Feuer des Grills. Suchen, filtern und den Tisch im Kopf schon zusammenstellen.", "menu.grillLabel": "Vom Grill", "menu.warmLabel": "Warme Mazza", "menu.shareLabel": "Zum Teilen", "menu.sharePrice": "ab 52,95 € p. P.", "menu.sweetLabel": "Süßes Finale", "menu.browserLabel": "Die ganze Karte", "menu.browserTitle": "Was darf auf den Tisch?", "menu.search": "Hummus, Hähnchen, vegan suchen…", "menu.vegetarian": "vegetarisch", "menu.vegan": "vegan", "menu.empty": "Nichts gefunden.", "menu.reset": "Alles anzeigen", "menu.allergy": "Allergie oder besondere Ernährung? Sagen Sie uns Bescheid — fast immer finden wir etwas Köstliches.", "menu.pdf": "Originale Speisekarte", "menu.resultOne": "Gericht", "menu.resultMany": "Gerichte",
     "categories.all": "Alles", "categories.koud": "Kalte Mazza", "categories.warm": "Warme Mazza", "categories.salade": "Salate", "categories.grill": "Grill", "categories.vis": "Fisch", "categories.vega": "Vegetarisch", "categories.dessert": "Dessert",
@@ -44,13 +44,13 @@ const copy = {
     "legal.companyLabel": "Unternehmensdaten", "legal.companyTitle": "Restaurant Mazza B.V.", "legal.addressLabel": "Geschäftsanschrift", "legal.registrationLabel": "Handelsregister", "legal.contactLabel": "Kontakt", "legal.reachLabel": "Erreichbar", "legal.reachValue": "Täglich<br />16:00 — 22:00 Uhr",
     "legal.privacyLabel": "Datenschutz", "legal.privacyTitle": "Ihre Daten, mit Sorgfalt behandelt.", "legal.privacyBody1": "Restaurant Mazza B.V. ist für personenbezogene Daten verantwortlich, die telefonisch oder per E-Mail eingehen. Dazu können Name, Kontaktdaten, Reservierungsangaben und freiwillig mitgeteilte Wünsche gehören. Wir verwenden diese Daten nur zur Kontaktaufnahme und Bearbeitung Ihrer Reservierung und bewahren sie nicht länger als nötig oder gesetzlich vorgeschrieben auf.", "legal.privacyBody2": "Daten werden nur mit Dienstleistern geteilt, die für die Reservierung erforderlich sind, oder wenn eine gesetzliche Pflicht besteht. Sobald ein externer Reservierungsdienst angeschlossen wird, werden diese Informationen vor der Inbetriebnahme um den jeweiligen Auftragsverarbeiter und die Aufbewahrungsfristen ergänzt.", "legal.rightsTitle": "Ihre Datenschutzrechte", "legal.rightsBody": "Sie können Auskunft, Berichtigung, Löschung, Einschränkung, Übertragung oder Widerspruch verlangen. Senden Sie Ihre Anfrage an info@restaurantmazza.nl. Grundsätzlich erhalten Sie innerhalb eines Monats eine Antwort; außerdem können Sie sich bei der niederländischen Datenschutzbehörde beschweren.", "legal.apLink": "Niederländische Datenschutzbehörde",
     "legal.cookiesLabel": "Cookies & lokale Speicherung", "legal.cookiesTitle": "Kein Tracking. Kein verborgenes Profil.", "legal.cookiesBody1": "Diese Version verwendet keine Werbe-, Marketing- oder Tracking-Cookies. Ihre Sprachwahl wird nur lokal im Browser gespeichert, damit die Website beim nächsten Besuch dieselbe Sprache anzeigen kann. Diese Einstellung verlässt Ihr Gerät nicht.", "legal.cookiesBody2": "Sollten später Analyse- oder Marketingtechniken hinzukommen, für die eine Einwilligung erforderlich ist, werden sie erst nach Ihrer freien Wahl aktiviert und diese Erklärung wird zuvor aktualisiert.", "legal.cookiesStatus": "Aktueller Status: nur lokale Sprachwahl, kein Tracking.",
-    "legal.conceptLabel": "Aktuelle Konzeptversion", "legal.conceptTitle": "Die Reservierung ist derzeit eine interaktive Demo.", "legal.conceptBody": "Eingegebene Reservierungsdaten werden in dieser Konzeptversion weder an Mazza noch an Dritte gesendet und nicht dauerhaft gespeichert. Die angezeigte Bestätigung dient ausschließlich als Demonstration und ist keine echte Reservierung.", "legal.conceptNext": "Für eine echte Reservierung können Sie Mazza derzeit direkt anrufen oder eine E-Mail senden.", "legal.updated": "Zuletzt aktualisiert: 17. Juli 2026",
+    "legal.conceptLabel": "Aktuelle Konzeptversion", "legal.conceptTitle": "Die Reservierung ist derzeit eine interaktive Demo.", "legal.conceptBody": "Eingegebene Reservierungsdaten werden in dieser Konzeptversion weder an Mazza noch an Dritte gesendet und nicht dauerhaft gespeichert. Die angezeigte Bestätigung dient ausschließlich als Demonstration und ist keine echte Reservierung.", "legal.conceptNext": "Für eine echte Reservierung können Sie Mazza derzeit direkt anrufen oder eine E-Mail senden.", "legal.updated": "Zuletzt aktualisiert: 18. Juli 2026",
     weekdays: ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"]
   },
   ar: {
-    "nav.story": "قصتنا", "nav.menu": "قائمة الطعام", "nav.atmosphere": "الأجواء", "nav.visit": "زورونا", "nav.book": "احجز", "nav.openMenu": "افتح القائمة", "brand.cuisine": "المطبخ اللبناني",
+    "nav.story": "قصتنا", "nav.menu": "قائمة الطعام", "nav.atmosphere": "الأجواء", "nav.visit": "زورونا", "nav.book": "احجز", "nav.openMenu": "افتح القائمة", "nav.closeMenu": "أغلق القائمة", "a11y.skip": "انتقل إلى المحتوى", "menu.searchLabel": "ابحث في قائمة الطعام", "calendar.previous": "الشهر السابق", "calendar.next": "الشهر التالي", "brand.cuisine": "المطبخ اللبناني",
     "mobile.intro": "اكتشف مَزَّة", "common.daily": "مفتوح يومياً", "social.live": "طهي مباشر · إنستغرام", "social.kebab": "كباب · كرز حامض", "social.official": "مَزَّة الرسمي ↗",
-    "hero.eyebrow": "مطبخ لبناني · إنسخيده", "hero.title": "إنسخيده تتذوّق.<br /><em>ولبنان ينبض.</em>", "hero.ritual": "لبنان · إنسخيده · مَزَّة", "hero.copy": "ضيافة لبنانية ونار مفتوحة وأطباق لا تكتمل إلا حين يشارك الجميع.", "hero.book": "اختر طاولتك", "hero.menu": "اكتشف القائمة", "hero.tonight": "هذا المساء في مَزَّة", "hero.available": "لا تزال هناك طاولات متاحة.", "hero.choose": "اختر بنفسك المكان الذي تحب الجلوس فيه.", "hero.start": "ابدأ الحجز", "hero.locationLabel": "في قلب إنسخيده", "hero.hoursLabel": "سبعة أيام في الأسبوع", "hero.arabicLabel": "تذوّق · شارك · ابقَ",
+    "hero.eyebrow": "مطبخ لبناني · إنسخيده", "hero.title": "إنسخيده تتذوّق.<br /><em>ولبنان ينبض.</em>", "hero.ritual": "لبنان · إنسخيده · مَزَّة", "hero.copy": "ضيافة لبنانية ونار مفتوحة وأطباق لا تكتمل إلا حين يشارك الجميع.", "hero.book": "اختر طاولتك", "hero.menu": "اكتشف القائمة", "hero.tonight": "هذا المساء في مَزَّة", "hero.available": "اكتشف طاولتك لهذا المساء.", "hero.choose": "اختر بنفسك المكان الذي تحب الجلوس فيه.", "hero.start": "ابدأ الحجز", "hero.locationLabel": "في قلب إنسخيده", "hero.hoursLabel": "سبعة أيام في الأسبوع", "hero.arabicLabel": "تذوّق · شارك · ابقَ",
     "story.index": "01 · الحكاية", "story.title": "مائدة واحدة.<br /><em>لا أحد يأكل وحده.</em>", "story.photoCaption": "عالم دافئ في قلب إنسخيده.", "story.lead": "مَزَّة تعني أن تواصل التذوق والمشاركة والحديث. إنها الإجابة العربية على التاباس، بضيافة البيت.", "story.body": "مَزَّات باردة وساخنة، توابل عطرة وأطباق مشوية تصل إلى وسط المائدة. لا أحد يطلب لنفسه وحده.", "story.link": "اكتشف ما سيصل إلى المائدة", "story.quote": "«لا تكتمل المائدة حتى يشارك الجميع.»", "story.quoteBy": "— قاعدتنا المفضلة في البيت",
     "video.index": "مَزَّة في حركة", "video.title": "عِش أجواء المساء<br /><em>قبل أن تدخل.</em>", "video.copy": "ضوء دافئ ونار مفتوحة ومائدة تمتلئ طبقاً بعد طبق.", "video.link": "احجز أمسيتك", "video.badge": "مَزَّة الحقيقي<br />إنسخيده",
     "menu.index": "02 · قائمة الطعام", "menu.title": "اختر القليل.<br /><em>وتذوّق الكثير.</em>", "menu.copy": "من الحمص الكريمي إلى نار المشاوي. ابحث وصفِّ الأطباق وابدأ بتكوين مائدتك.", "menu.grillLabel": "من المشاوي", "menu.warmLabel": "مَزَّة ساخنة", "menu.shareLabel": "للمشاركة", "menu.sharePrice": "ابتداءً من 52.95 € للشخص", "menu.sweetLabel": "نهاية حلوة", "menu.browserLabel": "القائمة الكاملة", "menu.browserTitle": "ماذا نضع على المائدة؟", "menu.search": "ابحث عن حمص، دجاج، نباتي…", "menu.vegetarian": "نباتي", "menu.vegan": "نباتي صرف", "menu.empty": "لم نجد شيئاً.", "menu.reset": "عرض الكل", "menu.allergy": "هل لديك حساسية أو نظام غذائي خاص؟ أخبرنا وسنجد لك طبقاً لذيذاً.", "menu.pdf": "القائمة الأصلية", "menu.resultOne": "طبق", "menu.resultMany": "طبقاً",
@@ -67,7 +67,7 @@ const copy = {
     "legal.companyLabel": "بيانات الشركة", "legal.companyTitle": "Restaurant Mazza B.V.", "legal.addressLabel": "عنوان المنشأة", "legal.registrationLabel": "السجل التجاري", "legal.contactLabel": "التواصل", "legal.reachLabel": "أوقات التواصل", "legal.reachValue": "يومياً<br />16:00 — 22:00",
     "legal.privacyLabel": "الخصوصية", "legal.privacyTitle": "نتعامل مع بياناتك بعناية.", "legal.privacyBody1": "تتحمل Restaurant Mazza B.V. مسؤولية البيانات الشخصية التي تصل عبر الهاتف أو البريد الإلكتروني. وقد تشمل الاسم وبيانات الاتصال وتفاصيل الحجز والرغبات التي تقدمها بنفسك. نستخدم هذه البيانات فقط للتواصل ومعالجة الحجز، ولا نحتفظ بها لمدة أطول مما يلزم أو يفرضه القانون.", "legal.privacyBody2": "لا تتم مشاركة البيانات إلا مع مقدمي الخدمات الضروريين للحجز أو عند وجود التزام قانوني. وعند ربط خدمة حجز خارجية، تُحدّث هذه المعلومات قبل تشغيلها لتشمل الجهة المعالجة وفترات الاحتفاظ.", "legal.rightsTitle": "حقوقك المتعلقة بالخصوصية", "legal.rightsBody": "يمكنك طلب الاطلاع أو التصحيح أو الحذف أو التقييد أو نقل البيانات أو الاعتراض. أرسل طلبك إلى info@restaurantmazza.nl. تتلقى رداً من حيث المبدأ خلال شهر واحد، ويمكنك أيضاً تقديم شكوى إلى هيئة حماية البيانات الهولندية.", "legal.apLink": "هيئة حماية البيانات الهولندية",
     "legal.cookiesLabel": "ملفات الارتباط والتخزين المحلي", "legal.cookiesTitle": "لا تتبع. لا ملف خفي.", "legal.cookiesBody1": "لا تستخدم هذه النسخة ملفات تعريف ارتباط للإعلانات أو التسويق أو التتبع. يُحفظ اختيار اللغة محلياً فقط في متصفحك كي يعرض الموقع اللغة نفسها في زيارتك التالية، ولا يغادر هذا الاختيار جهازك.", "legal.cookiesBody2": "إذا أضيفت مستقبلاً أدوات تحليل أو تسويق تحتاج إلى موافقة، فلن تعمل إلا بعد اختيارك الحر، وستُحدّث هذه الصفحة أولاً.", "legal.cookiesStatus": "الحالة الحالية: اختيار لغة محلي فقط، من دون تتبع.",
-    "legal.conceptLabel": "النسخة التجريبية الحالية", "legal.conceptTitle": "نظام الحجز حالياً تجربة تفاعلية.", "legal.conceptBody": "لا تُرسل بيانات الحجز المدخلة في هذه النسخة التجريبية إلى مَزَّة أو أي جهة خارجية، ولا تُحفظ بشكل دائم. رسالة التأكيد المعروضة للتوضيح فقط ولا تُعد حجزاً فعلياً.", "legal.conceptNext": "لإجراء حجز فعلي، يمكنك حالياً الاتصال بمَزَّة مباشرة أو إرسال بريد إلكتروني.", "legal.updated": "آخر تحديث: 17 يوليو 2026",
+    "legal.conceptLabel": "النسخة التجريبية الحالية", "legal.conceptTitle": "نظام الحجز حالياً تجربة تفاعلية.", "legal.conceptBody": "لا تُرسل بيانات الحجز المدخلة في هذه النسخة التجريبية إلى مَزَّة أو أي جهة خارجية، ولا تُحفظ بشكل دائم. رسالة التأكيد المعروضة للتوضيح فقط ولا تُعد حجزاً فعلياً.", "legal.conceptNext": "لإجراء حجز فعلي، يمكنك حالياً الاتصال بمَزَّة مباشرة أو إرسال بريد إلكتروني.", "legal.updated": "آخر تحديث: 18 يوليو 2026",
     weekdays: ["اث", "ثل", "أر", "خم", "جم", "سب", "أح"]
   }
 };
@@ -139,6 +139,8 @@ const menuSearch = document.querySelector("[data-menu-search]");
 const menuMeta = document.querySelector("[data-menu-result-meta]");
 const menuEmpty = document.querySelector("[data-menu-empty]");
 const menuFilters = [...document.querySelectorAll("[data-category]")];
+const menuStudio = document.querySelector(".menu-studio-layout");
+const menuCatalog = document.querySelector(".menu-catalog");
 const tableComposer = document.querySelector("[data-table-composer]");
 const tableComposerToggle = document.querySelector("[data-table-composer-toggle]");
 const tableComposerToggleLabel = document.querySelector("[data-table-toggle-label]");
@@ -156,6 +158,17 @@ const tablePerPerson = document.querySelector("[data-table-per-person]");
 const tableClear = document.querySelector("[data-table-clear]");
 const tableSelection = new Map();
 let tableGuests = 2;
+
+function syncMenuStudioOrder() {
+  if (!menuStudio || !menuCatalog || !tableComposer) return;
+  if (window.matchMedia("(max-width: 920px)").matches) {
+    menuStudio.insertBefore(tableComposer, menuCatalog);
+  } else {
+    menuStudio.insertBefore(menuCatalog, tableComposer);
+  }
+}
+syncMenuStudioOrder();
+window.addEventListener("resize", syncMenuStudioOrder);
 
 function formatPrice(price) {
   return new Intl.NumberFormat(localeCodes[currentLang], { style: "currency", currency: "EUR" }).format(price);
@@ -281,19 +294,47 @@ const menuToggle = document.querySelector("[data-menu-toggle]");
 const mobileMenu = document.querySelector("[data-mobile-menu]");
 window.addEventListener("scroll", () => header?.classList.toggle("scrolled", window.scrollY > 40), { passive: true });
 
-function closeMobileMenu() {
+function updateMobileMenuLabel() {
+  if (!menuToggle) return;
+  const open = menuToggle.getAttribute("aria-expanded") === "true";
+  menuToggle.setAttribute("aria-label", t(open ? "nav.closeMenu" : "nav.openMenu"));
+}
+function closeMobileMenu(restoreFocus = false) {
   if (!menuToggle || !mobileMenu) return;
   menuToggle.setAttribute("aria-expanded", "false");
   mobileMenu.classList.remove("open");
   document.body.classList.remove("menu-open");
+  updateMobileMenuLabel();
+  if (restoreFocus) menuToggle.focus();
 }
 menuToggle?.addEventListener("click", () => {
   const open = menuToggle.getAttribute("aria-expanded") !== "true";
   menuToggle.setAttribute("aria-expanded", String(open));
   mobileMenu.classList.toggle("open", open);
   document.body.classList.toggle("menu-open", open);
+  updateMobileMenuLabel();
+  if (open) mobileMenu.querySelector("a")?.focus();
 });
-mobileMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", closeMobileMenu));
+mobileMenu?.querySelectorAll("a").forEach((link) => link.addEventListener("click", () => closeMobileMenu()));
+document.addEventListener("keydown", (event) => {
+  if (!mobileMenu?.classList.contains("open")) return;
+  if (event.key === "Escape") {
+    event.preventDefault();
+    closeMobileMenu(true);
+    return;
+  }
+  if (event.key !== "Tab") return;
+  const focusable = [menuToggle, ...mobileMenu.querySelectorAll("a[href], button:not([disabled])")];
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+});
 
 const revealObserver = new IntersectionObserver((entries, observer) => {
   entries.forEach((entry) => {
@@ -345,6 +386,10 @@ today.setHours(0, 0, 0, 0);
 bookingState.viewDate = new Date(today.getFullYear(), today.getMonth(), 1);
 
 const bookingForm = document.querySelector("[data-booking-form]");
+const bookingApp = document.querySelector("[data-booking-app]");
+const bookingPhoneInput = document.querySelector('input[name="phone"]');
+bookingPhoneInput?.setAttribute("type", "tel");
+bookingPhoneInput?.setAttribute("inputmode", "tel");
 const bookingScreens = [...document.querySelectorAll("[data-booking-screen]")];
 const stepChips = [...document.querySelectorAll("[data-step-chip]")];
 const bookingSuccess = document.querySelector("[data-booking-success]");
@@ -404,6 +449,8 @@ function renderGuests() {
 function renderCalendar() {
   const year = bookingState.viewDate.getFullYear();
   const month = bookingState.viewDate.getMonth();
+  prevMonthButton.setAttribute("aria-label", t("calendar.previous"));
+  nextMonthButton.setAttribute("aria-label", t("calendar.next"));
   calendarMonth.textContent = new Intl.DateTimeFormat(localeCodes[currentLang], { month: "long", year: "numeric" }).format(bookingState.viewDate);
   document.querySelectorAll("[data-weekday]").forEach((element, index) => { element.textContent = copy[currentLang].weekdays[index]; });
   const firstDay = new Date(year, month, 1);
@@ -504,7 +551,26 @@ function selectTable(tableId) {
   renderFloorPlan();
 }
 
-function setBookingScreen(step) {
+function scrollBookingIntoView(focusHeading = true) {
+  if (!bookingApp) return;
+  requestAnimationFrame(() => {
+    requestAnimationFrame(() => {
+      const placeStep = () => {
+        const headerOffset = window.innerWidth <= 920 ? 82 : 112;
+        const top = Math.max(0, window.scrollY + bookingApp.getBoundingClientRect().top - headerOffset);
+        window.scrollTo({ top, behavior: "auto" });
+      };
+      placeStep();
+      window.setTimeout(placeStep, 90);
+      if (!focusHeading) return;
+      const heading = bookingApp.querySelector(".booking-screen.active h3");
+      if (!heading) return;
+      heading.setAttribute("tabindex", "-1");
+      window.setTimeout(() => heading.focus({ preventScroll: true }), 120);
+    });
+  });
+}
+function setBookingScreen(step, shouldScroll = true) {
   bookingState.step = step;
   bookingScreens.forEach((screen) => screen.classList.toggle("active", Number(screen.dataset.bookingScreen) === step));
   stepChips.forEach((chip, index) => {
@@ -515,6 +581,7 @@ function setBookingScreen(step) {
   });
   if (step === 2) renderFloorPlan();
   if (step === 3) renderFinalSummary();
+  if (shouldScroll) scrollBookingIntoView();
 }
 function renderFinalSummary() {
   const table = restaurantTables.find((item) => item.id === bookingState.tableId);
@@ -541,6 +608,7 @@ bookingForm?.addEventListener("submit", (event) => {
   bookingSuccess.hidden = false;
   renderSuccessCopy();
   document.querySelector("[data-success-reference]").textContent = `MZ-${dateKey(bookingState.selectedDate).replaceAll("-", "").slice(2)}-${Math.floor(100 + Math.random() * 900)}`;
+  scrollBookingIntoView(false);
 });
 document.querySelector("[data-booking-reset]")?.addEventListener("click", () => {
   bookingForm.reset(); bookingSuccess.hidden = true; document.querySelector(".booking-stepper").hidden = false;
@@ -567,6 +635,7 @@ function translatePage(lang, persist = true) {
   document.querySelectorAll("[data-i18n-html]").forEach((element) => { element.innerHTML = t(element.dataset.i18nHtml); });
   document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => { element.placeholder = t(element.dataset.i18nPlaceholder); });
   document.querySelectorAll("[data-i18n-aria]").forEach((element) => { element.setAttribute("aria-label", t(element.dataset.i18nAria)); });
+  updateMobileMenuLabel();
   document.querySelectorAll("[data-lang]").forEach((button) => { button.classList.toggle("active", button.dataset.lang === lang); button.setAttribute("aria-pressed", String(button.dataset.lang === lang)); });
   if (persist) localStorage.setItem("mazza-language", lang);
   renderMenu();
@@ -586,6 +655,6 @@ function translatePage(lang, persist = true) {
 document.querySelectorAll("[data-lang]").forEach((button) => button.addEventListener("click", () => translatePage(button.dataset.lang)));
 
 if (bookingForm) {
-  renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState(); setBookingScreen(1);
+  renderGuests(); renderGuestVisual(); renderCalendar(); renderTimes(); updateWhenState(); setBookingScreen(1, false);
 }
 translatePage(currentLang, false);

@@ -355,7 +355,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 .booking-section { background: var(--ink); }
 .booking-title { color: var(--peach-soft); }
 .booking-title > p { color: rgba(255,255,255,.48); }
-.booking-app { width: min(1400px, 100%); min-height: 760px; margin: 0 auto; overflow: hidden; color: var(--ink); background: var(--paper); border: 1px solid rgba(247,211,166,.25); box-shadow: 0 35px 90px rgba(0,0,0,.28); }
+.booking-app { width: min(1400px, 100%); min-height: 760px; margin: 0 auto; overflow: hidden; overflow-anchor: none; color: var(--ink); background: var(--paper); border: 1px solid rgba(247,211,166,.25); box-shadow: 0 35px 90px rgba(0,0,0,.28); }
 .booking-stepper { display: grid; grid-template-columns: repeat(3, 1fr); padding: 10px; gap: 8px; background: var(--ink-soft); }
 .step-chip { display: grid; grid-template-columns: 34px 1fr 22px; min-width: 0; height: 78px; padding: 0 20px; align-items: center; text-align: left; color: rgba(255,255,255,.35); background: rgba(255,255,255,.025); border: 1px solid transparent; cursor: pointer; }
 .step-chip > span { font-size: 9px; font-weight: 600; }
@@ -716,6 +716,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
 [dir="rtl"] .hero-content, [dir="rtl"] .subpage-hero-content, [dir="rtl"] .story-copy, [dir="rtl"] .menu-intro, [dir="rtl"] .menu-browser, [dir="rtl"] .section-heading, [dir="rtl"] .booking-title, [dir="rtl"] .contact-copy, [dir="rtl"] .video-story-copy, [dir="rtl"] .route-card, [dir="rtl"] .page-cta { text-align: right; }
 [dir="rtl"] .header-actions, [dir="rtl"] .language-switcher { direction: ltr; }
 [dir="rtl"] .hero-content { right: max(32px, calc((100vw - 1400px) / 2)); left: auto; }
+[dir="rtl"] .hero-reserve-card { right: auto; left: max(34px, calc((100vw - 1400px) / 2)); }
 [dir="rtl"] .subpage-hero-content { right: max(32px, calc((100vw - 1400px) / 2)); left: auto; }
 [dir="rtl"] .subpage-breadcrumb { right: auto; left: max(32px, calc((100vw - 1400px) / 2)); }
 [dir="rtl"] .video-story-copy { right: max(45px, calc((100vw - 1400px) / 2)); left: auto; }
@@ -787,6 +788,7 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .desktop-nav { gap: 19px; }
   .desktop-nav a { font-size: 11px; }
   .hero-reserve-card { right: 32px; }
+  [dir="rtl"] .hero-reserve-card { right: auto; left: 32px; }
   .story-main-photo { grid-column: 1 / 8; }
   .story-copy { grid-column: 8 / 13; padding-right: 0; }
   .story-detail-photo { grid-column: 8 / 11; }
@@ -1062,6 +1064,63 @@ svg { fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: 
   .reservation-assurance { padding-top: 0; }
   .assurance-card > div { padding: 22px 18px; }
   .footer-origin { position: static; align-items: center; }
+}
+
+/* Final presentation pass: readability, focus and a tighter homepage */
+.skip-link { position: fixed; z-index: 1000; top: 10px; left: 10px; padding: 12px 16px; color: var(--ink); background: var(--peach); border: 2px solid var(--ink); font-size: 13px; font-weight: 700; transform: translateY(-160%); transition: transform .2s ease; }
+.skip-link:focus { transform: translateY(0); }
+:where(a, button, input, textarea):focus-visible { outline: 3px solid var(--gold); outline-offset: 4px; }
+.contact-facts a { color: inherit; text-decoration: none; }
+.contact-facts a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.menu-catalog { grid-column: 1; grid-row: 1; }
+.table-composer { grid-column: 2; grid-row: 1; }
+.home-story { padding-block: 115px; }
+.home-story .story-detail-photo, .home-story .story-quote { display: none; }
+.home-story .story-main-photo { grid-row: 1 / 3; }
+.home-story .story-copy { grid-row: 1 / 3; align-self: center; }
+body[data-page="home"] .route-grid { grid-template-columns: repeat(2, 1fr); }
+body[data-page="home"] .route-card { min-height: 350px; }
+
+.menu-browser-head > div span, .dish-card span, .instagram-card > div span, .story-motion-caption span,
+.table-composer-head span, .table-composer-head button, .table-guest-control span, .table-order-row span,
+.table-total span, .table-disclaimer, .step-chip small, .booking-screen-head span, .booking-label span,
+.guest-block > a, .calendar-weekdays span, .time-groups > span, .booking-bottom-bar > div span,
+.booking-next, .booking-back, .plan-legend, .room-label, .table-detail-selected > span, .form-grid label,
+.final-summary > span, .summary-row small, .summary-note, .booking-success > span, .success-ticket small,
+.booking-success > button, .contact-facts span, .footer-legal span, .footer-row span, .footer-row small {
+  font-size: max(10px, .625rem);
+}
+.hero-eyebrow, .hero-ritual, .hero-reserve-top, .hero-footer span, .section-index,
+.social-cta > div > span, .route-card > span, .route-card b, .contact-map-address small,
+.contact-map-coordinates span, .footer-legal nav a {
+  font-size: max(10px, .625rem);
+}
+.table-disclaimer, .summary-note, .footer-row span, .footer-row small { line-height: 1.55; }
+.booking-screen-head > p, .menu-item p, .contact-facts strong { font-size: max(12px, .75rem); }
+
+[dir="rtl"] .hero h1, [dir="rtl"] .subpage-hero-content h1, [dir="rtl"] .section-heading h2,
+[dir="rtl"] .menu-intro h2, [dir="rtl"] .booking-title h2, [dir="rtl"] .booking-screen h3,
+[dir="rtl"] .contact-copy h2, [dir="rtl"] .video-story-copy h2, [dir="rtl"] .page-cta h2,
+[dir="rtl"] .legal-hero h1, [dir="rtl"] .legal-panel h2 {
+  font-family: var(--arabic);
+  letter-spacing: 0;
+}
+
+@media (max-width: 920px) {
+  .menu-catalog { grid-column: 1; grid-row: 2; }
+  .table-composer { grid-column: 1; grid-row: 1; }
+  body[data-page="home"] .route-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 640px) {
+  .home-story { padding-block: 76px; }
+  .home-story .section-heading { margin-bottom: 34px; }
+  .home-story .story-main-photo { height: 440px; }
+  body[data-page="home"] .social-taste .instagram-card:not(.instagram-card-large) { display: none; }
+  body[data-page="home"] .instagram-card { height: 440px; }
+  body[data-page="home"] .route-card { min-height: 235px; }
+  body[data-page="home"] .contact-copy { padding-block: 38px; }
+  body[data-page="home"] .contact-visual { min-height: 360px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
