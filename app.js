@@ -196,6 +196,24 @@ function renderMenu() {
   menuEmpty.hidden = filtered.length !== 0;
 }
 
+function updateMenuAddButton(id) {
+  if (!menuGrid) return;
+  const item = menuItems.find((entry) => entry.id === id);
+  const button = menuGrid.querySelector(`[data-table-add="${id}"]`);
+  if (!item || !button) return;
+  const quantity = tableSelection.get(id) || 0;
+  button.classList.toggle("active", quantity > 0);
+  button.setAttribute("aria-label", `${t("table.add")} ${item.name}`);
+  const count = button.querySelector("span");
+  const label = button.querySelector("small");
+  if (count) count.textContent = quantity || "+";
+  if (label) label.textContent = quantity ? t("table.onTable") : t("table.add");
+}
+
+function updateVisibleMenuAddButtons() {
+  menuGrid?.querySelectorAll("[data-table-add]").forEach((button) => updateMenuAddButton(button.dataset.tableAdd));
+}
+
 function selectedTableItems() {
   return menuItems.filter((item) => tableSelection.has(item.id)).map((item) => ({ item, quantity: tableSelection.get(item.id) }));
 }
@@ -251,7 +269,7 @@ function changeTableDish(id, delta) {
   const current = tableSelection.get(id) || 0;
   const next = Math.max(0, Math.min(20, current + delta));
   if (next === 0) tableSelection.delete(id); else tableSelection.set(id, next);
-  renderMenu();
+  updateMenuAddButton(id);
   renderTableComposer();
   if (delta > 0) pulseTableComposer();
 }
@@ -276,7 +294,7 @@ tableOrderList?.addEventListener("click", (event) => {
 });
 tableGuestsMinus?.addEventListener("click", () => { tableGuests = Math.max(1, tableGuests - 1); renderTableComposer(); });
 tableGuestsPlus?.addEventListener("click", () => { tableGuests = Math.min(10, tableGuests + 1); renderTableComposer(); });
-tableClear?.addEventListener("click", () => { tableSelection.clear(); renderMenu(); renderTableComposer(); });
+tableClear?.addEventListener("click", () => { tableSelection.clear(); updateVisibleMenuAddButtons(); renderTableComposer(); });
 tableComposerToggle?.addEventListener("click", () => { tableComposer.classList.toggle("open"); updateTableComposerToggle(); });
 
 menuFilters.forEach((button) => button.addEventListener("click", () => {
